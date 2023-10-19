@@ -3,6 +3,7 @@ import { Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 const playfairDisplay = Playfair_Display({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Header />
         <article className="container py-10">{children}</article>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
