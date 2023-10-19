@@ -86,14 +86,14 @@ const PleineConscienceSceauxPage = () => {
         <h2 className="mb-5 text-xl">
           Accompagnement en Pleine Conscience : Qui peut vous guider ?
         </h2>
-        <p>
+        <p className="mb-5">
           La pratique de la pleine conscience, bien qu&apos;inspirée des
           traditions méditatives, est souvent adaptée au contexte clinique et
           proposée comme une technique de relaxation et de gestion du stress.
           Lorsqu&apos;il s&apos;agit de la thérapie basée sur la pleine
           conscience, choisir le bon professionnel est essentiel.
         </p>
-        <p>
+        <p className="mb-5">
           Plusieurs professionnels de santé, selon la réglementation et les
           normes locales, peuvent accompagner un patient dans le travail de
           pleine conscience. Parmi eux, les psychologues cliniciens, les

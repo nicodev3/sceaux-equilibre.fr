@@ -51,7 +51,7 @@ const PsychologueSceauxPage = () => {
           son approche novatrice du traitement des traumatismes. La{' '}
           <Link
             href="/pleine-conscience-sceaux"
-            className="text-cta"
+            className="hover:text-cta-dark text-cta underline transition-colors ease-out"
           >
             thérapie par la pleine conscience
           </Link>
@@ -106,7 +106,7 @@ const PsychologueSceauxPage = () => {
           l&apos;usage du{' '}
           <Link
             href="https://www.iledefrance.paps.sante.fr/usage-du-titre-de-psychotherapeute-3"
-            className="text-cta"
+            className="hover:text-cta-dark text-cta underline transition-colors ease-out"
             target="_blank"
           >
             titre de psychothérapeute

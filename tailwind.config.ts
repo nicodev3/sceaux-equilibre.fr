@@ -12,11 +12,6 @@ const config: Config = {
       padding: '1rem',
     },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
         green: '#68855C',
         'green-dark': '#46643A',
@@ -25,6 +20,8 @@ const config: Config = {
         'lavande-dark': '#B2B2D8',
         'lavande-light': '#F0F0FF',
         cta: '#EA0B0B',
+        'cta-light': '#F83A3A',
+        'cta-dark': '#C41212',
       },
     },
   },
