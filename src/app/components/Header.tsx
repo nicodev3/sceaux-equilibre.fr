@@ -14,7 +14,6 @@ const Header = () => {
         <Link href="/dieteticienne-sceaux">Diététique</Link>
         <Link href="/hypnose-sceaux">Hypnose</Link>
         <Link href="/pleine-conscience-sceaux">Pleine conscience</Link>
-        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   )
