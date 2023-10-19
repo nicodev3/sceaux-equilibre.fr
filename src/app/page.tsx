@@ -1,29 +1,33 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Carousel from '@/app/components/Carousel'
 
 export default function Home() {
   return (
     <main className="grid md:grid-cols-12">
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
-        <header className="mb-12">
-          <h1 className="mb-5 text-2xl">(Re)Trouvez votre équilibre</h1>
-          <p className="mb-5">
-            L&apos;équilibre, qu&apos;il soit physique, mental ou émotionnel,
-            est un élément clé de la santé et du bien-être. Dans le contexte
-            actuel où les exigences du quotidien sont multiples, maintenir cet
-            équilibre peut être un défi.
-          </p>
-          <p>
-            Une prise en charge globale, qui considère la personne dans sa
-            totalité, peut s&apos;avérer bénéfique. Cette approche vise à
-            intégrer les aspects physiologiques, psychologiques et
-            comportementaux de l&apos;individu. Qu&apos;il s&apos;agisse
-            d&apos;explorer des thérapies centrées sur l&apos;esprit, de
-            bénéficier de conseils nutritionnels adaptés ou de découvrir des
-            techniques de pleine conscience, l&apos;objectif est de favoriser
-            une harmonie intérieure et extérieure.
-          </p>
-        </header>
+        <div className="mb-12">
+          <header className="mb-5">
+            <h1 className="mb-5 text-2xl">(Re)Trouvez votre équilibre</h1>
+            <p className="mb-5">
+              L&apos;équilibre, qu&apos;il soit physique, mental ou émotionnel,
+              est un élément clé de la santé et du bien-être. Dans le contexte
+              actuel où les exigences du quotidien sont multiples, maintenir cet
+              équilibre peut être un défi.
+            </p>
+            <p>
+              Une prise en charge globale, qui considère la personne dans sa
+              totalité, peut s&apos;avérer bénéfique. Cette approche vise à
+              intégrer les aspects physiologiques, psychologiques et
+              comportementaux de l&apos;individu. Qu&apos;il s&apos;agisse
+              d&apos;explorer des thérapies centrées sur l&apos;esprit, de
+              bénéficier de conseils nutritionnels adaptés ou de découvrir des
+              techniques de pleine conscience, l&apos;objectif est de favoriser
+              une harmonie intérieure et extérieure.
+            </p>
+          </header>
+          <Carousel />
+        </div>
         <div className="grid gap-5 md:grid-cols-2">
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
             <h2>Psychothérapies</h2>
@@ -40,6 +44,7 @@ export default function Home() {
               et trouvez celle qui vous correspond.
             </p>
           </div>
+
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
             <h2>Hypnose</h2>
             <p>
