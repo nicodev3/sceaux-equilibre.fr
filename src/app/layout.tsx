@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google'
 import './globals.css'
+import Header from '@/app/components/Header'
+import Footer from '@/app/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const playfairDisplay = Playfair_Display({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +17,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr">
+      <body className={playfairDisplay.className}>
+        <Header />
+        <article className="container py-10">{children}</article>
+        <Footer />
+      </body>
     </html>
   )
 }
