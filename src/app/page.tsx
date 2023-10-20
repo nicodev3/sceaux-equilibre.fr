@@ -8,7 +8,9 @@ export default function Home() {
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <div className="mb-12">
           <header className="mb-5">
-            <h1 className="mb-5 text-2xl">(Re)Trouvez votre équilibre</h1>
+            <h1 className="mb-5 text-3xl xl:text-4xl">
+              (Re)Trouvez votre équilibre
+            </h1>
             <p className="mb-5">
               L&apos;équilibre, qu&apos;il soit physique, mental ou émotionnel,
               est un élément clé de la santé et du bien-être. Dans le contexte
@@ -101,6 +103,21 @@ export default function Home() {
           width="1000"
           height="1000"
         />
+        <h2 className="my-5 text-2xl font-bold text-green">Informations :</h2>
+        <p className="mb-5">
+          Des places sont disponibles au cabinet sur des 1/2 journées pour les
+          professionnels intéréssés.
+        </p>
+        <p>
+          Plus d&apos;informations sur le site{' '}
+          <Link
+            href="https://location-cabinet-sceaux.fr"
+            target="_blank"
+            className="font-bold text-cta underline"
+          >
+            https://location-cabinet-sceaux.fr
+          </Link>
+        </p>
       </aside>
     </main>
   )

@@ -22,14 +22,11 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-            <li>
-              <Link href="">Mentions légales</Link>
+              <Link href="/mentions-legales">Mentions légales</Link>
             </li>
           </ul>
         </nav>
-        <p>Tous droits réservés, SCI Nicolas DEVAUX</p>
+        <p>Tous droits réservés, SCI Nicolas DEVAUX, 2023</p>
       </div>
     </footer>
   )
