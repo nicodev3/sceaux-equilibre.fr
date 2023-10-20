@@ -12,7 +12,7 @@ export async function generateMetadata() {
 
 const DieteticienneSceauxPage = () => {
   return (
-    <div className="grid md:grid-cols-12">
+    <div className="md:grid md:grid-cols-12">
       <div className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <header>
           <h1 className="mb-5 text-2xl">
@@ -85,7 +85,7 @@ const DieteticienneSceauxPage = () => {
         <Link
           href="https://www.doctolib.fr/dieteticien/paris/lucille-anglard"
           target="_blank"
-          className="hover:bg-cta-dark my-5 block rounded bg-cta p-3 text-center text-white transition-colors ease-out"
+          className="my-5 block rounded bg-cta p-3 text-center text-white transition-colors ease-out hover:bg-cta-dark"
         >
           Prendre RDV sur Doctolib
         </Link>

@@ -3,10 +3,10 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <header className="border-b bg-lavande">
-      <nav className="container sticky top-0 flex justify-end gap-4 py-4">
+      <nav className="container sticky top-0 flex flex-wrap justify-center gap-4 py-4 md:justify-end">
         <Link
           href="/"
-          className="mr-auto"
+          className="mr-auto w-full font-bold uppercase text-green-dark md:w-auto"
         >
           Sceaux Equilibre
         </Link>

@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className="grid gap-5 md:grid-cols-2">
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2>Psychothérapies</h2>
+            <h2 className="text-xl">Psychothérapies</h2>
             <p>
               Il existe de nombreuses formes de psychothérapies, des plus
               traditionnelles comme la psychanalyse, à des approches innovantes
@@ -44,9 +44,8 @@ export default function Home() {
               et trouvez celle qui vous correspond.
             </p>
           </div>
-
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2>Hypnose</h2>
+            <h2 className="text-xl">Hypnose</h2>
             <p>
               Explorez le pouvoir de l&apos;hypnose, une méthode thérapeutique
               basée sur la modification de l&apos;état de conscience. Loin de
@@ -63,7 +62,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2>Thérapie par la Pleine Conscience</h2>
+            <h2 className="text-xl">Thérapie par la Pleine Conscience</h2>
             <p>
               Apportez un équilibre à votre vie grâce à la pleine conscience.
               C&apos;est une technique efficace pour gérer le stress,
@@ -78,7 +77,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2>Conseils en Diététique</h2>
+            <h2 className="text-xl">Conseils en Diététique</h2>
             <p>
               Mangez de manière équilibrée et saine avec Lucille Anglard, votre
               diététicienne. Elle saura adapter vos habitudes alimentaires à vos

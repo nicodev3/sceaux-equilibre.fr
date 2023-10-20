@@ -10,7 +10,7 @@ export async function generateMetadata() {
 
 const PleineConscienceSceauxPage = () => {
   return (
-    <div className="grid md:grid-cols-12">
+    <div className="md:grid md:grid-cols-12">
       <div className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <header>
           <h1 className="mb-5 text-2xl">Thérapie par la Pleine Conscience</h1>

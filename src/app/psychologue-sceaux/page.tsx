@@ -11,10 +11,12 @@ export async function generateMetadata() {
 
 const PsychologueSceauxPage = () => {
   return (
-    <div className="grid md:grid-cols-12">
+    <div className="md:grid md:grid-cols-12">
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <header>
-          <h1 className="text-2xl">Psychologie et psychothérapies à Sceaux</h1>
+          <h1 className="mb-5 text-2xl">
+            Psychologie et psychothérapies à Sceaux
+          </h1>
           <h2 className="text-xl">
             L&apos;univers des psychothérapies : un paysage riche et diversifié
           </h2>
@@ -51,7 +53,7 @@ const PsychologueSceauxPage = () => {
           son approche novatrice du traitement des traumatismes. La{' '}
           <Link
             href="/pleine-conscience-sceaux"
-            className="hover:text-cta-dark text-cta underline transition-colors ease-out"
+            className="text-cta underline transition-colors ease-out hover:text-cta-dark"
           >
             thérapie par la pleine conscience
           </Link>
@@ -106,7 +108,7 @@ const PsychologueSceauxPage = () => {
           l&apos;usage du{' '}
           <Link
             href="https://www.iledefrance.paps.sante.fr/usage-du-titre-de-psychotherapeute-3"
-            className="hover:text-cta-dark text-cta underline transition-colors ease-out"
+            className="text-cta underline transition-colors ease-out hover:text-cta-dark"
             target="_blank"
           >
             titre de psychothérapeute
