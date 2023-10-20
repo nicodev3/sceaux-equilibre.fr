@@ -4,7 +4,7 @@ import Carousel from '@/app/components/Carousel'
 
 export default function Home() {
   return (
-    <main className="grid md:grid-cols-12">
+    <main className="md:grid md:grid-cols-12">
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <div className="mb-12">
           <header className="mb-5">
@@ -37,7 +37,7 @@ export default function Home() {
               comme la thérapie par la pleine conscience. Découvrez les{' '}
               <Link
                 href="/psychologue-sceaux"
-                className="hover:text-cta-dark text-cta underline transition-colors ease-out"
+                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
               >
                 différentes formes de psychothérapies
               </Link>{' '}
@@ -55,7 +55,7 @@ export default function Home() {
               l&apos;{' '}
               <Link
                 href="/hypnose-sceaux"
-                className="hover:text-cta-dark text-cta underline transition-colors ease-out"
+                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
               >
                 hypnose
               </Link>{' '}
@@ -70,7 +70,7 @@ export default function Home() {
               l&apos;anxiété et bien d&apos;autres défis quotidiens. Explorez la{' '}
               <Link
                 href="/hypnose-sceaux"
-                className="hover:text-cta-dark text-cta underline transition-colors ease-out"
+                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
               >
                 thérapie par la pleine conscience
               </Link>
@@ -86,7 +86,7 @@ export default function Home() {
               de santé et de bien-être. Découvrez comment une{' '}
               <Link
                 href="/dieteticienne-sceaux"
-                className="hover:text-cta-dark text-cta underline transition-colors ease-out"
+                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
               >
                 diététicienne
               </Link>{' '}
