@@ -1,12 +1,15 @@
 import Link from 'next/link'
+import { openSans } from '@/app/fonts'
 
 const Header = () => {
   return (
     <header className="border-b bg-lavande">
-      <nav className="container sticky top-0 flex flex-wrap justify-center gap-4 py-4 md:justify-end">
+      <nav
+        className={`${openSans.className} container sticky top-0 flex flex-wrap justify-center gap-4 py-4 md:justify-end`}
+      >
         <Link
           href="/"
-          className="mr-auto w-full font-bold uppercase text-green-dark md:w-auto"
+          className={`mr-auto w-full text-2xl font-semibold uppercase text-green-dark md:w-auto`}
         >
           Sceaux Equilibre
         </Link>
