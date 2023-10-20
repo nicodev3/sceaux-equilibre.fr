@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
@@ -15,7 +16,7 @@ const DieteticienneSceauxPage = () => {
     <div className="md:grid md:grid-cols-12">
       <div className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <header>
-          <h1 className="mb-5 text-2xl">
+          <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
             Diététicienne Diplômée : Pour une alimentation saine et équilibrée
           </h1>
           <p className="mb-5">
@@ -32,14 +33,14 @@ const DieteticienneSceauxPage = () => {
             alt="Thérapie par la Pleine Conscience à Sceaux"
           />
         </header>
-        <h2 className="text-xl">Notre Approche</h2>
+        <h2 className={`text-xl ${openSans.className}`}>Notre Approche</h2>
         <p>
           Nous croyons en une approche <strong>personnalisée</strong> de la
           nutrition. Chaque plan de repas est conçu en fonction de vos besoins,
           de vos objectifs et de vos préférences.
         </p>
 
-        <h2 className="text-xl">Services Proposés</h2>
+        <h2 className={`text-xl ${openSans.className}`}>Services Proposés</h2>
         <ul>
           <li>
             <strong>Consultation initiale</strong> : Évaluation de vos habitudes
@@ -59,7 +60,9 @@ const DieteticienneSceauxPage = () => {
           </li>
         </ul>
 
-        <h2 className="text-xl">Pourquoi choisir notre diététicienne ?</h2>
+        <h2 className={`text-xl ${openSans.className}`}>
+          Pourquoi choisir notre diététicienne ?
+        </h2>
         <p>
           Avec une formation solide et des années d&apos;expérience, notre
           diététicienne est dévouée à aider chaque client à atteindre ses
@@ -69,10 +72,10 @@ const DieteticienneSceauxPage = () => {
         </p>
       </div>
       <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
-        <h2 className="mb-5 text-xl">
+        <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Lucille Anglard, diététicienne à Sceaux
         </h2>
-        <p>
+        <p className="mb-3">
           En tant que diététicienne, Lucille Anglard joue le rôle de guide pour
           réhabiliter vos pratiques alimentaires. Son approche vise à établir
           des routines nutritionnelles alignées sur votre santé, vos besoins

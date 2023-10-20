@@ -1,7 +1,11 @@
+import { openSans } from '@/app/fonts'
+
 const MentionsLegalesPage = () => {
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="text-2xl">Conditions générales d&apos;utilisation</h1>
+      <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
+        Conditions générales d&apos;utilisation
+      </h1>
       <p>En vigueur au 20/10/2023</p>
 
       <p>
@@ -14,7 +18,9 @@ const MentionsLegalesPage = () => {
 
       <p>Les présentes CGU sont accessibles sur le site à la rubrique «CGU».</p>
 
-      <h2 className="text-xl">Article 1 : Les mentions légales</h2>
+      <h2 className={`text-xl ${openSans.className}`}>
+        Article 1 : Les mentions légales
+      </h2>
       <p>
         L’édition et la direction de la publication du site
         <a href="https://www.sceaux-equilibre.fr/">
@@ -39,7 +45,9 @@ const MentionsLegalesPage = () => {
         Barranca Ave #4133 Covina, CA 91723.
       </p>
 
-      <h2 className="text-xl">ARTICLE 2 : Accès au site</h2>
+      <h2 className={`text-xl ${openSans.className}`}>
+        ARTICLE 2 : Accès au site
+      </h2>
       <p>
         Le site{' '}
         <a href="https://www.sceaux-equilibre.fr/">
@@ -61,7 +69,9 @@ const MentionsLegalesPage = () => {
         logiciels, connexion Internet, etc.) sont à sa charge.
       </p>
 
-      <h2 className="text-xl">ARTICLE 3 : Collecte des données</h2>
+      <h2 className={`text-xl ${openSans.className}`}>
+        ARTICLE 3 : Collecte des données
+      </h2>
       <p>
         Le site assure à l&apos;Utilisateur une collecte et un traitement
         d&apos;informations personnelles dans le respect de la vie privée
@@ -76,7 +86,9 @@ const MentionsLegalesPage = () => {
         d&apos;un email à l&apos;adresse mentionnée dans l&apos;article 1.
       </p>
 
-      <h2 className="text-xl">ARTICLE 4 : Propriété intellectuelle</h2>
+      <h2 className={`text-xl ${openSans.className}`}>
+        ARTICLE 4 : Propriété intellectuelle
+      </h2>
       <p>
         Les marques, logos, signes ainsi que tous les contenus du site (textes,
         images, son…) font l&apos;objet d&apos;une protection par le Code de la
@@ -102,7 +114,9 @@ const MentionsLegalesPage = () => {
         contenu protégé doit citer l’auteur et sa source.
       </p>
 
-      <h2 className="text-xl">ARTICLE 5 : Responsabilité</h2>
+      <h2 className={`text-xl ${openSans.className}`}>
+        ARTICLE 5 : Responsabilité
+      </h2>
       <p>
         Les sources des informations diffusées sur le site{' '}
         <a href="https://www.sceaux-equilibre.fr/">
@@ -138,7 +152,9 @@ const MentionsLegalesPage = () => {
         ou du fait imprévisible et insurmontable d&apos;un tiers.
       </p>
 
-      <h2 className="text-xl">ARTICLE 6 : Liens hypertextes</h2>
+      <h2 className={`text-xl ${openSans.className}`}>
+        ARTICLE 6 : Liens hypertextes
+      </h2>
       <p>
         Des liens hypertextes peuvent être présents sur le site. L’Utilisateur
         est informé qu’en cliquant sur ces liens, il sortira du site{' '}
@@ -150,7 +166,7 @@ const MentionsLegalesPage = () => {
         leur contenu.
       </p>
 
-      <h2 className="text-xl">ARTICLE 7 : Cookies</h2>
+      <h2 className={`text-xl ${openSans.className}`}>ARTICLE 7 : Cookies</h2>
       <p>
         L’Utilisateur est informé que lors de ses visites sur le site, un cookie
         peut s’installer automatiquement sur son logiciel de navigation. Les
@@ -199,7 +215,7 @@ const MentionsLegalesPage = () => {
         l’utilisation des cookies.
       </p>
 
-      <h2 className="text-xl">
+      <h2 className={`text-xl ${openSans.className}`}>
         ARTICLE 8 : Droit applicable et juridiction compétente
       </h2>
       <p>

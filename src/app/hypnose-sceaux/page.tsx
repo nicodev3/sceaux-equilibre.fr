@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
@@ -14,7 +15,7 @@ const HypnoSceauxPage = () => {
     <div className="md:grid md:grid-cols-12">
       <div className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <header>
-          <h1 className="mb-5 text-2xl">
+          <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
             La Thérapie par Hypnose : Bienfaits et Applications
           </h1>
           <p className="mb-5">
@@ -43,7 +44,7 @@ const HypnoSceauxPage = () => {
             guérison et de transformation.
           </p>
         </header>
-        <h2 className="text-xl">
+        <h2 className={`text-xl ${openSans.className}`}>
           Applications de l&apos;Hypnose Thérapeutique
         </h2>
         <h3 className="text-lg">Arrêt du Tabac</h3>
@@ -84,7 +85,7 @@ const HypnoSceauxPage = () => {
         </p>
       </div>
       <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
-        <h2 className="mb-5 text-xl">
+        <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Audrey Bruderer, hypnothérapeute à Sceaux
         </h2>
         <p>
@@ -101,7 +102,7 @@ const HypnoSceauxPage = () => {
           Visiter son site
         </Link>
 
-        <h2 className="mb-5 text-xl">
+        <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Qu&apos;attendre d&apos;une séance d&apos;hypnose&nbsp;?
         </h2>
         <p className="mb-3">

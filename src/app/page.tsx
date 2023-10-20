@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Carousel from '@/app/components/Carousel'
+import { openSans } from './fonts'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <div className="mb-12">
           <header className="mb-5">
-            <h1 className="mb-5 text-3xl xl:text-4xl">
+            <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
               (Re)Trouvez votre équilibre
             </h1>
             <p className="mb-5">
@@ -32,7 +33,7 @@ export default function Home() {
         </div>
         <div className="grid gap-5 md:grid-cols-2">
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className="text-xl">Psychothérapies</h2>
+            <h2 className={`text-xl ${openSans.className}`}>Psychothérapies</h2>
             <p>
               Il existe de nombreuses formes de psychothérapies, des plus
               traditionnelles comme la psychanalyse, à des approches innovantes
@@ -47,7 +48,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className="text-xl">Hypnose</h2>
+            <h2 className={`text-xl ${openSans.className}`}>Hypnose</h2>
             <p>
               Explorez le pouvoir de l&apos;hypnose, une méthode thérapeutique
               basée sur la modification de l&apos;état de conscience. Loin de
@@ -64,7 +65,9 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className="text-xl">Thérapie par la Pleine Conscience</h2>
+            <h2 className={`text-xl ${openSans.className}`}>
+              Thérapie par la Pleine Conscience
+            </h2>
             <p>
               Apportez un équilibre à votre vie grâce à la pleine conscience.
               C&apos;est une technique efficace pour gérer le stress,
@@ -79,7 +82,9 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className="text-xl">Conseils en Diététique</h2>
+            <h2 className={`text-xl ${openSans.className}`}>
+              Conseils en Diététique
+            </h2>
             <p>
               Mangez de manière équilibrée et saine avec Lucille Anglard, votre
               diététicienne. Elle saura adapter vos habitudes alimentaires à vos
@@ -103,7 +108,11 @@ export default function Home() {
           width="1000"
           height="1000"
         />
-        <h2 className="my-5 text-2xl font-bold text-green">Informations :</h2>
+        <h2
+          className={`my-5 text-2xl font-semibold text-green ${openSans.className}`}
+        >
+          Informations :
+        </h2>
         <p className="mb-5">
           Des places sont disponibles au cabinet sur des 1/2 journées pour les
           professionnels intéréssés.

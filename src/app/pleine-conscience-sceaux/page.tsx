@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
@@ -13,7 +14,9 @@ const PleineConscienceSceauxPage = () => {
     <div className="md:grid md:grid-cols-12">
       <div className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <header>
-          <h1 className="mb-5 text-2xl">Thérapie par la Pleine Conscience</h1>
+          <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
+            Thérapie par la Pleine Conscience
+          </h1>
           <p className="mb-5">
             La <strong>thérapie par la pleine conscience</strong> est une forme
             novatrice de psychothérapie qui intègre des techniques de méditation
@@ -29,7 +32,7 @@ const PleineConscienceSceauxPage = () => {
           />
         </header>
         <section>
-          <h2 className="mb-3 text-xl">
+          <h2 className={`mb-3 text-2xl ${openSans.className}`}>
             Qu&apos;est-ce que la Pleine Conscience ?
           </h2>
           <p>
@@ -43,7 +46,7 @@ const PleineConscienceSceauxPage = () => {
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl">
+          <h2 className={`mb-3 text-2xl ${openSans.className}`}>
             Comment fonctionne la Thérapie par la Pleine Conscience ?
           </h2>
           <p>
@@ -57,7 +60,7 @@ const PleineConscienceSceauxPage = () => {
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl">
+          <h2 className={`mb-3 text-2xl ${openSans.className}`}>
             Avantages de la Thérapie par la Pleine Conscience :
           </h2>
           <ul className="ml-9 list-disc">
@@ -70,7 +73,7 @@ const PleineConscienceSceauxPage = () => {
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl">
+          <h2 className={`mb-3 text-2xl ${openSans.className}`}>
             Qui peut bénéficier de la Thérapie par la Pleine Conscience ?
           </h2>
           <p>
@@ -83,7 +86,7 @@ const PleineConscienceSceauxPage = () => {
         </section>
       </div>
       <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
-        <h2 className="mb-5 text-xl">
+        <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Accompagnement en Pleine Conscience : Qui peut vous guider ?
         </h2>
         <p className="mb-5">

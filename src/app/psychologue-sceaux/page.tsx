@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
@@ -14,10 +15,10 @@ const PsychologueSceauxPage = () => {
     <div className="md:grid md:grid-cols-12">
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <header>
-          <h1 className="mb-5 text-2xl">
+          <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
             Psychologie et psychothérapies à Sceaux
           </h1>
-          <h2 className="text-xl">
+          <h2 className={`text-xl ${openSans.className}`}>
             L&apos;univers des psychothérapies : un paysage riche et diversifié
           </h2>
         </header>
@@ -93,7 +94,7 @@ const PsychologueSceauxPage = () => {
         </p>
       </section>
       <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
-        <h2 className="mb-5 text-xl">A savoir</h2>
+        <h2 className={`mb-3 text-2xl ${openSans.className}`}>A savoir</h2>
         <Image
           src="/psychologue-adulte.png"
           width="269"

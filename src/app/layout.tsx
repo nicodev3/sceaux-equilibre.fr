@@ -1,11 +1,9 @@
 import type { Metadata } from 'next'
-import { Playfair_Display } from 'next/font/google'
+import { playfairDisplay } from './fonts'
 import './globals.css'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
 import { Analytics } from '@vercel/analytics/react'
-
-const playfairDisplay = Playfair_Display({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Sceaux Equilibre | Équilibre et Bien-être à Sceaux',
