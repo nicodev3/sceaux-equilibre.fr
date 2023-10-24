@@ -32,6 +32,7 @@ const Header = () => {
       <button
         onClick={handleMenuClick}
         className="z-20 ml-auto mr-5 flex flex-col items-center justify-center md:hidden"
+        aria-label="Menu"
       >
         <span
           className={`block h-0.5 w-6 rounded-sm bg-green-dark transition-all duration-300 ease-out ${

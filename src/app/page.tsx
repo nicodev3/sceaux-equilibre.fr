@@ -104,9 +104,9 @@ export default function Home() {
       <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
         <Image
           alt=""
-          src="/sceaux-equilibre-home.jpeg"
-          width="1000"
-          height="1000"
+          src="/sceaux-equilibre-home.jpg"
+          width="266"
+          height="266"
         />
         <h2
           className={`my-5 text-2xl font-semibold text-green ${openSans.className}`}

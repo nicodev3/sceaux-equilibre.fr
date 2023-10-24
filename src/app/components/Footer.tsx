@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer bg-green-dark py-8 text-xs text-white">
       <div className="container flex justify-between">
         <nav>
-          <ul>
+          <ul className="flex flex-col gap-y-4">
             <li>
               <Link href="/psychologue-sceaux">Psychothérapie Sceaux</Link>
             </li>
