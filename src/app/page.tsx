@@ -103,7 +103,7 @@ export default function Home() {
       </section>
       <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
         <Image
-          alt=""
+          alt="equilibre nature"
           src="/sceaux-equilibre-home.jpg"
           width="266"
           height="266"

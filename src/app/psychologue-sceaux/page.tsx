@@ -102,7 +102,7 @@ const PsychologueSceauxPage = () => {
           src="/psychologue-adulte.png"
           width="269"
           height="160"
-          alt=""
+          alt="illustration psychologue"
         />
         <p>
           Le titre de psychothérapeute est protégé par un décret datant de 2004.

@@ -18,7 +18,7 @@ const Carousel = () => {
     >
       <SwiperSlide>
         <Image
-          alt=""
+          alt="Cabinet de consultation rue Houdan"
           src="/carousel/cabinet-portrait-1.jpg"
           width="1200"
           height="600"
@@ -26,7 +26,7 @@ const Carousel = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
-          alt=""
+          alt="Cabinet de consultation rue Houdan"
           src="/carousel/cabinet-portrait-2.jpg"
           width="1200"
           height="600"
@@ -34,7 +34,7 @@ const Carousel = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
-          alt=""
+          alt="Cabinet de consultation rue Houdan"
           src="/carousel/cabinet-portrait-3.jpg"
           width="1200"
           height="600"
