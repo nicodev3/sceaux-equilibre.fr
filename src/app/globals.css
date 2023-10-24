@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.c-nav {
+    display: none;
+}
+
+.c-nav.is-open {
+    display: flex;
+    justify-content: flex-start;
+    z-index: 10;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .c-nav {
+        display: flex;
+    }
+}

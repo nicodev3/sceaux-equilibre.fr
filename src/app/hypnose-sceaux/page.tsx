@@ -4,6 +4,9 @@ import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
+    alternates: {
+      canonical: '/hypnose-sceaux',
+    },
     title: 'Thérapie par Hypnose : Bienfaits et Applications',
     description:
       "Découvrez les bienfaits de l'hypnose thérapeutique. De l'arrêt du tabac à l'accompagnement périnatal, l'hypnose offre des solutions douces et efficaces pour divers troubles. Explorez ses applications et redécouvrez vos potentialités.",

@@ -3,6 +3,9 @@ import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
+    alternates: {
+      canonical: '/pleine-conscience-sceaux',
+    },
     title: 'Thérapie par la Pleine Conscience à Sceaux',
     description:
       'Découvrez la thérapie par la pleine conscience : une méthode novatrice pour gérer le stress, l&apos;anxiété et bien plus.Découvrez la thérapie par la pleine conscience : une méthode novatrice pour gérer le stress, l&apos;anxiété et bien plus.',

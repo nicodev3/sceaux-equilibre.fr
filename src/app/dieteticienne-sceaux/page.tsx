@@ -4,6 +4,9 @@ import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
+    alternates: {
+      canonical: '/dieteticienne-sceaux',
+    },
     title:
       'Diététicienne Professionnelle | Conseils Alimentaires & Plans de Repas',
     description:

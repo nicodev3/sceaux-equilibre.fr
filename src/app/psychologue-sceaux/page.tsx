@@ -4,6 +4,9 @@ import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
+    alternates: {
+      canonical: '/psychologue-sceaux',
+    },
     title: 'Guide des Psychothérapies : Approches, Bienfaits et Conseils',
     description:
       'Explorez les différentes formes de psychothérapies, de la psychanalyse à la thérapie par la pleine conscience. Découvrez comment chaque méthode peut aider à gérer les défis émotionnels et améliorer le bien-être mental.',
