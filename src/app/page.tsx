@@ -29,6 +29,12 @@ export default function Home() {
               une harmonie intérieure et extérieure.
             </p>
           </header>
+          <p className="mb-10">
+            Au cabinet pluridisciplinaire de Sceaux, plusieurs professionnels
+            peuvent vous accueillir pour vous accompagner vers un mieux être.
+            Psychologue, psychanalyste, nutritionniste, hypnothérapeute,
+            consultez le spécialiste qui correspond à votre besoin.
+          </p>
           <Carousel />
         </div>
         <div className="grid gap-5 md:grid-cols-2">
@@ -73,7 +79,7 @@ export default function Home() {
               C&apos;est une technique efficace pour gérer le stress,
               l&apos;anxiété et bien d&apos;autres défis quotidiens. Explorez la{' '}
               <Link
-                href="/hypnose-sceaux"
+                href="/pleine-conscience-sceaux"
                 className="text-cta underline transition-colors ease-out hover:text-cta-dark"
               >
                 thérapie par la pleine conscience
