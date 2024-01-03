@@ -120,8 +120,8 @@ export default function Home() {
           Informations :
         </h2>
         <p className="mb-5">
-          Des places sont disponibles au cabinet sur des 1/2 journées pour les
-          professionnels intéréssés.
+          Des places sont actuellement disponibles dans le cadre du partage du
+          cabinet pour les professionnels intéréssés.
         </p>
         <p>
           Plus d&apos;informations sur le site{' '}
