@@ -10,8 +10,12 @@ export default function Home() {
         <div className="mb-12">
           <header className="mb-5">
             <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
-              (Re)Trouvez votre équilibre
+              Cabinet de consultation pluridisciplinaire à Sceaux
             </h1>
+
+            <h2 className="mb-5 text-2xl xl:text-3xl">
+              (Re)Trouvez votre équilibre
+            </h2>
             <p className="mb-5">
               L&apos;équilibre, qu&apos;il soit physique, mental ou émotionnel,
               est un élément clé de la santé et du bien-être. Dans le contexte
