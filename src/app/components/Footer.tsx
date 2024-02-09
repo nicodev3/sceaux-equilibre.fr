@@ -2,31 +2,49 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-juniper-700 py-8 text-xs text-white">
-      <div className="container flex justify-between">
+    <footer className="footer bg-juniper-700 pt-8 text-xs text-white">
+      <div className="container justify-between pb-8 md:flex-col">
         <nav>
           <ul className="flex flex-col gap-y-4">
             <li>
-              <Link href="/psychologue-sceaux">Psychothérapie Sceaux</Link>
-            </li>
-            <li></li>
-            <li>
-              <Link href="/dieteticienne-sceaux">Diététique Sceaux</Link>
-            </li>
-            <li>
-              <Link href="/hypnose-sceaux">Hypnose Sceaux</Link>
-            </li>
-            <li>
-              <Link href="/pleine-conscience-sceaux">
-                Pleine conscience Sceaux
+              <Link
+                href="/"
+                className={`mr-auto w-full text-2xl font-semibold uppercase text-green-dark md:w-auto`}
+              >
+                Sceaux Equilibre
               </Link>
             </li>
             <li>
-              <Link href="/mentions-legales">Mentions légales</Link>
+              <Link href="/psychologue-sceaux">Psychothérapies</Link>
+            </li>
+            <li>
+              <Link href="/dieteticienne-sceaux">Diététique</Link>
+            </li>
+            <li>
+              <Link href="/hypnose-sceaux">Hypnose</Link>
+            </li>
+            <li>
+              <Link href="/bilan-psychologique">Bilans</Link>
+            </li>
+            <li>
+              <Link href="/psychanalyste-sceaux">Psychanalyse</Link>
+            </li>
+            <li>
+              <Link href="/psychomotricite">Psychomotricité</Link>
+            </li>
+            <li>
+              <Link href="/relaxation-sceaux">Relaxation</Link>
+            </li>
+            <li>
+              <Link href="/therapie-cognitive-comportementale">TCC</Link>
             </li>
           </ul>
         </nav>
-        <p>Tous droits réservés, SCI Nicolas DEVAUX, 2023</p>
+      </div>
+      <div className="bg-norway-900 py-3">
+        <p className="container">
+          Tous droits réservés, SCI Nicolas DEVAUX, 2023
+        </p>
       </div>
     </footer>
   )

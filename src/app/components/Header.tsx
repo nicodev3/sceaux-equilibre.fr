@@ -32,43 +32,43 @@ const Header = () => {
         </Link>
         <Link
           href="/psychologue-sceaux"
-          className="border-r border-r-amber-300 pr-2"
+          className="md:border-r md:border-r-amber-300 md:pr-2"
         >
           Psychothérapies
         </Link>
         <Link
           href="/dieteticienne-sceaux"
-          className="border-r border-r-amber-300 pr-2"
+          className="md:border-r md:border-r-amber-300 md:pr-2"
         >
           Diététique
         </Link>
         <Link
           href="/hypnose-sceaux"
-          className="border-r border-r-amber-300 pr-2"
+          className="md:border-r md:border-r-amber-300 md:pr-2"
         >
           Hypnose
         </Link>
         <Link
           href="/bilan-psychologique"
-          className="border-r border-r-amber-300 pr-2"
+          className="md:border-r md:border-r-amber-300 md:pr-2"
         >
           Bilans
         </Link>
         <Link
           href="/psychanalyste-sceaux"
-          className="border-r border-r-amber-300 pr-2"
+          className="md:border-r md:border-r-amber-300 md:pr-2"
         >
           Psychanalyse
         </Link>
         <Link
           href="/psychomotricite"
-          className="border-r border-r-amber-300 pr-2"
+          className="md:border-r md:border-r-amber-300 md:pr-2"
         >
           Psychomotricité
         </Link>
         <Link
           href="/relaxation-sceaux"
-          className="border-r border-r-amber-300 pr-2"
+          className="md:border-r md:border-r-amber-300 md:pr-2"
         >
           Relaxation
         </Link>
