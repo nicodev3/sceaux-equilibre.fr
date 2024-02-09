@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sceaux-equilibre.fr/
+
+# Sitemaps
+Sitemap: https://sceaux-equilibre.fr/sitemap.xml

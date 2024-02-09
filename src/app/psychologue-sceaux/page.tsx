@@ -36,10 +36,22 @@ const PsychologueSceauxPage = () => {
         </p>
         <p>
           Parmi ces approches, les{' '}
-          <strong>psychothérapies psychanalytiques</strong> offrent un cadre
-          pour explorer en profondeur les mécanismes inconscients. La{' '}
-          <strong>thérapie comportementale et cognitive (TCC)</strong>, quant à
-          elle, se concentre sur la modification des pensées et des
+          <Link
+            href="/psychotherapies-psychanalytiques"
+            className="underline"
+          >
+            {' '}
+            <strong>psychothérapies psychanalytiques </strong>
+          </Link>
+          offrent un cadre pour explorer en profondeur les mécanismes
+          inconscients. Les{' '}
+          <Link
+            href="/therapie-cognitive-comportementale"
+            className="underline"
+          >
+            <strong>thérapies comportementales et cognitives (T.C.C.) </strong>
+          </Link>
+          , quant à elles, se concentrent sur la modification des pensées et des
           comportements problématiques. L&apos;<strong>hypnose</strong>, parfois
           entourée de mystère, a montré son efficacité dans divers domaines
           comme la gestion de la douleur ou la dépendance. La{' '}
@@ -59,7 +71,7 @@ const PsychologueSceauxPage = () => {
             href="/pleine-conscience-sceaux"
             className="text-cta underline transition-colors ease-out hover:text-cta-dark"
           >
-            thérapie par la pleine conscience
+            <strong>thérapie par la pleine conscience</strong>
           </Link>
           , inspirée des traditions méditatives, est une autre méthode qui gagne
           en reconnaissance. Elle se concentre sur l&apos;entraînement de

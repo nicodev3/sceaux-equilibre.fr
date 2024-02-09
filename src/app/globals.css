@@ -18,3 +18,53 @@
         display: flex;
     }
 }
+
+.c-page-section {
+    @apply mb-10 md:mb-12;
+}
+
+.c-wysiwyg {
+    h1 {
+        @apply text-3xl md:text-4xl mb-8 border-l-4 border-norway-500 pl-2 text-norway-900 font-semibold;
+    }
+
+    h2 {
+        @apply text-2xl mb-4 font-medium text-norway-900;
+    }
+
+    h3 {
+        @apply text-xl mb-4 font-semibold;
+    }
+
+    h4 {
+        @apply text-lg mb-4;
+    }
+
+    p {
+        @apply mb-5;
+    }
+}
+
+.c-le-point-sur {
+    @apply mt-8 p-5 shadow-md rounded-md;
+
+    h3 {
+        @apply text-xl mb-4;
+    }
+}
+
+.c-card {
+    @apply bg-norway-50 shadow-md;
+}
+
+.c-card__title,
+.c-card h2,
+.c-card h3,
+.c-card h4 {
+    @apply p-8 bg-norway-200 rounded-t-md;
+}
+
+.c-card__content {
+    @apply px-8 py-4 rounded-b-md;
+}
+
