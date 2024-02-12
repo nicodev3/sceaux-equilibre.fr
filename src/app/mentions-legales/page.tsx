@@ -1,5 +1,16 @@
 import { openSans } from '@/app/fonts'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/mentions-legales',
+    },
+    title: 'Mentions légales',
+    description: 'Mentions légales du site sceaux-equilibre.fr',
+  }
+}
+
 const MentionsLegalesPage = () => {
   return (
     <div className="flex flex-col gap-4">

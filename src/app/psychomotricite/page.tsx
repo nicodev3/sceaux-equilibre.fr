@@ -1,6 +1,18 @@
 import { openSans } from '@/app/fonts'
 import Image from 'next/image'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/psychomotricite',
+    },
+    title: 'Psychomotricité',
+    description:
+      'Les psychomotriciens sont des auxiliaires médicaux diplômés d&apos;Etat. Cette profession en plein essor possède de multiples applications. Tous les âges sont concernés, de la femme enceinte jusqu&apos;à la personne âgée. Le champ d&apos;intervention des psychomotriciens est le suivant:',
+  }
+}
+
 const PsychomotricitePage = () => {
   return (
     <div className="grid md:grid-cols-12 md:gap-20">

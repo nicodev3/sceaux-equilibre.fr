@@ -4,6 +4,7 @@ import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
     alternates: {
       canonical: '/hypnose-sceaux',
     },
@@ -87,7 +88,7 @@ const HypnoSceauxPage = () => {
           bien-être optimal.
         </p>
       </div>
-      <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Audrey Bruderer, hypnothérapeute à Sceaux
         </h2>
@@ -100,7 +101,7 @@ const HypnoSceauxPage = () => {
         <Link
           href="https://www.bruderer-hypnose.com/"
           target="_blank"
-          className="my-5 block rounded bg-cta p-3 text-center text-white transition-colors ease-out hover:bg-cta-dark"
+          className="bg-cta hover:bg-cta-dark my-5 block rounded p-3 text-center text-white transition-colors ease-out"
         >
           Visiter son site
         </Link>

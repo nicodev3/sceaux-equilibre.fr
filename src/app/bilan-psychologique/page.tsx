@@ -1,6 +1,18 @@
 import Image from 'next/image'
 import { openSans } from '@/app/fonts'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/bilan-psychologique',
+    },
+    title: 'Bilans psychologiques',
+    description:
+      'Les bilans psychologiques constituent un outil précieux dans la compréhension des fonctionnements cognitifs, émotionnels et comportementaux d’un individu. Ils permettent d’évaluer de manière approfondie les forces et les difficultés psychologiques à travers une série de tests et d’entretiens cliniques. Ces évaluations sont menées par des psychologues formés qui utilisent une gamme de techniques standardisées pour mesurer différents aspects de la psyché, tels que l’intelligence, la mémoire, l’attention, le langage, ainsi que les structures émotionnelles et de personnalité.',
+  }
+}
+
 const BilanPsychologiquePage = () => {
   return (
     <div className="c-page-layout grid gap-10 lg:grid-cols-12">

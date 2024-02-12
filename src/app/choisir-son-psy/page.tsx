@@ -1,5 +1,17 @@
 import { openSans } from '@/app/fonts'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/choisir-son-psy',
+    },
+    title: 'Choisir son psy',
+    description:
+      'Comment choisir un psy ? Se repérer dans la jungle des "psys".',
+  }
+}
+
 const ChoisirSonPsyPage = () => {
   return (
     <div className="c-page-layout grid gap-10 lg:grid-cols-12">

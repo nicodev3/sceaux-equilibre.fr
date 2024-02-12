@@ -3,6 +3,7 @@ import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
     alternates: {
       canonical: '/pleine-conscience-sceaux',
     },
@@ -88,7 +89,7 @@ const PleineConscienceSceauxPage = () => {
           </p>
         </section>
       </div>
-      <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Accompagnement en Pleine Conscience : Qui peut vous guider ?
         </h2>

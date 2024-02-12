@@ -1,6 +1,18 @@
 import { openSans } from '@/app/fonts'
 import Image from 'next/image'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/relaxation-sceaux',
+    },
+    title: 'Relaxation Psychosomatique à Sceaux : Détente et Bien-être',
+    description:
+      'Découvrez la relaxation psychosomatique à Sceaux, une méthode thérapeutique qui vise à revisiter le chemin de l&apos;accordage affectif avec le corps, pour juguler les angoisses et améliorer le bien-être mental.',
+  }
+}
+
 const RelaxationSceauxPage = () => {
   return (
     <div className="grid md:grid-cols-12 md:gap-20">

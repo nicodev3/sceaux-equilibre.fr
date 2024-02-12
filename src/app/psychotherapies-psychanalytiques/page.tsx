@@ -1,5 +1,17 @@
 import { openSans } from '@/app/fonts'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/psychotherapies-psychanalytiques',
+    },
+    title: 'Psychothérapies Psychanalytiques | Psychologue à Sceaux',
+    description:
+      'Découvrez les psychothérapies psychanalytiques : un cadre différent, un processus psychanalytique, une formation rigoureuse et une authentique psychanalyse.',
+  }
+}
+
 const PsychotherapiesPsychanalytiquesPage = () => {
   return (
     <div className="c-page-layout grid gap-10 lg:grid-cols-12">

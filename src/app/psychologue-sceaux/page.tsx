@@ -4,6 +4,7 @@ import { openSans } from '@/app/fonts'
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
     alternates: {
       canonical: '/psychologue-sceaux',
     },

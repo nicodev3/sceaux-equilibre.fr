@@ -1,5 +1,17 @@
 import Image from 'next/image'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/psychanalyste-sceaux',
+    },
+    title: 'Psychanalyste Sceaux',
+    description:
+      'Découvrez la psychanalyse : une méthode de psychothérapie qui explore les mécanismes inconscients et les processus de pensée. Découvrez comment la psychanalyse peut aider à gérer les défis émotionnels et améliorer le bien-être mental.',
+  }
+}
+
 const PsychanalysteSceauxPage = () => {
   return (
     <div className="c-page-layout grid gap-10 lg:grid-cols-12">
