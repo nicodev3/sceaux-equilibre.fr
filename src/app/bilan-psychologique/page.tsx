@@ -21,7 +21,7 @@ const BilanPsychologiquePage = () => {
           d&apos;exigeants critères de sensibilité, fidélité et validité.
         </p>
         <Image
-          src="/school-exams.jpeg"
+          src="/school-exams.jpg"
           width="800"
           height="565"
           alt="Thérapie par la Pleine Conscience à Sceaux"

@@ -23,7 +23,7 @@ const RelaxationSceauxPage = () => {
           d&apos;application sont nombreux.
         </p>
         <Image
-          src="/relaxation.jpeg"
+          src="/relaxation.jpg"
           width="800"
           height="533"
           alt="illustration relaxation"

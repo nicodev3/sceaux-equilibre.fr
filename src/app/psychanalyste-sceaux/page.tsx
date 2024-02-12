@@ -36,7 +36,7 @@ const PsychanalysteSceauxPage = () => {
           première évoque la « cure de parole » dès les années 1880.
         </p>
         <Image
-          src="/psychanalyse.jpeg"
+          src="/psychanalyse.jpg"
           width="800"
           height="533"
           alt="illustration psychanalyse"

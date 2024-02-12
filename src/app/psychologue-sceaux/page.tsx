@@ -60,7 +60,7 @@ const PsychologueSceauxPage = () => {
           notre lieu de travail ou de toute autre structure sociale.
         </p>
         <Image
-          src="/psychologue.jpeg"
+          src="/psychologue.jpg"
           width="800"
           height="533"
           alt="illustration psychologue"
