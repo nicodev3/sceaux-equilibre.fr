@@ -2,7 +2,8 @@ const ContactPage = () => {
   return (
     <form
       name="contact"
-      netlify
+      method="POST"
+      data-netlify="true"
       className="flex flex-col gap-5 bg-sazerac-50 p-10 shadow-md md:w-[600px]"
     >
       <p>
