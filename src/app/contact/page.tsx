@@ -1,5 +1,17 @@
 import { openSans } from '@/app/fonts'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/contact',
+    },
+    title: 'Contactez-nous',
+    description:
+      'Contactez-nous pour toute question ou demande de rendez-vous. Nous vous répondrons dans les plus brefs délais.',
+  }
+}
+
 const ContactPage = () => {
   return (
     <section className="md:w-1/2">

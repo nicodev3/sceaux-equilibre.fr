@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
     alternates: {
       canonical: '/plan-du-site',
     },

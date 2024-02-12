@@ -3,6 +3,18 @@ import Link from 'next/link'
 import Carousel from '@/app/components/Carousel'
 import { openSans } from './fonts'
 
+export async function generateMetadata() {
+  return {
+    metadataBase: new URL('https://sceaux-equilibre.fr/'),
+    alternates: {
+      canonical: '/',
+    },
+    title: 'Cabinet de consultation pluridisciplinaire à Sceaux',
+    description:
+      'Cabinet de consultation pluridisciplinaire à Sceaux. (Re)Trouvez votre équilibre avec des professionnels de la santé mentale, de la nutrition et du bien-être.',
+  }
+}
+
 export default function Home() {
   return (
     <main className="md:grid md:grid-cols-12">
