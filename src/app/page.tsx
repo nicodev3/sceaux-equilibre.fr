@@ -41,25 +41,33 @@ export default function Home() {
           </p>
           <Carousel />
         </div>
-        <div className="grid gap-5 md:grid-cols-2">
-          <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className={`text-xl ${openSans.className}`}>Psychothérapies</h2>
-            <p>
+        <div className="grid gap-10 md:grid-cols-2">
+          <div className="flex flex-col gap-5 rounded shadow">
+            <h2
+              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
+            >
+              Psychothérapies
+            </h2>
+            <p className="p-10 pt-0">
               Il existe de nombreuses formes de psychothérapies, des plus
               traditionnelles comme la psychanalyse, à des approches innovantes
               comme la thérapie par la pleine conscience. Découvrez les{' '}
               <Link
                 href="/psychologue-sceaux"
-                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
+                className="c-text-link"
               >
                 différentes formes de psychothérapies
               </Link>{' '}
               et trouvez celle qui vous correspond.
             </p>
           </div>
-          <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className={`text-xl ${openSans.className}`}>Hypnose</h2>
-            <p>
+          <div className="flex flex-col gap-5 rounded shadow">
+            <h2
+              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
+            >
+              Hypnose
+            </h2>
+            <p className="p-10 pt-0">
               Explorez le pouvoir de l&apos;hypnose, une méthode thérapeutique
               basée sur la modification de l&apos;état de conscience. Loin de
               l&apos;hypnose de spectacle, il s&apos;agit d&apos;une véritable
@@ -67,42 +75,46 @@ export default function Home() {
               l&apos;{' '}
               <Link
                 href="/hypnose-sceaux"
-                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
+                className="c-text-link"
               >
                 hypnose
               </Link>{' '}
               .
             </p>
           </div>
-          <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className={`text-xl ${openSans.className}`}>
-              Thérapie par la Pleine Conscience
+          <div className="flex flex-col gap-5 rounded shadow">
+            <h2
+              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
+            >
+              Drainage lymphatique et massages
             </h2>
-            <p>
-              Apportez un équilibre à votre vie grâce à la pleine conscience.
-              C&apos;est une technique efficace pour gérer le stress,
-              l&apos;anxiété et bien d&apos;autres défis quotidiens. Explorez la{' '}
+            <p className="p-10 pt-0">
+              Massage prénatal et postnatal, drainage lymphatique, méthode
+              Renata França, Vanessa Treney vous accueille. Découvrez les
+              bienfaits du{' '}
               <Link
-                href="/pleine-conscience-sceaux"
-                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
+                href="/drainage-lymphatique"
+                className="c-text-link"
               >
-                thérapie par la pleine conscience
-              </Link>
-              .
+                drainage lymphatique et des massages
+              </Link>{' '}
+              tous les mardis et jeudis au cabinet de Sceaux.
             </p>
           </div>
-          <div className="flex flex-col gap-5 rounded border border-green-light p-5">
-            <h2 className={`text-xl ${openSans.className}`}>
+          <div className="flex flex-col gap-5 rounded shadow">
+            <h2
+              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
+            >
               Conseils en Diététique
             </h2>
-            <p>
+            <p className="p-10 pt-0">
               Mangez de manière équilibrée et saine avec Lucille Anglard, votre
               diététicienne. Elle saura adapter vos habitudes alimentaires à vos
               besoins spécifiques, vous aidant ainsi à atteindre vos objectifs
               de santé et de bien-être. Découvrez comment une{' '}
               <Link
                 href="/dieteticienne-sceaux"
-                className="text-cta underline transition-colors ease-out hover:text-cta-dark"
+                className="c-text-link"
               >
                 diététicienne
               </Link>{' '}
@@ -111,7 +123,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <Image
           alt="equilibre nature"
           src="/sceaux-equilibre-home.jpg"
@@ -119,7 +131,7 @@ export default function Home() {
           height="266"
         />
         <h2
-          className={`my-5 text-2xl font-semibold text-green ${openSans.className}`}
+          className={`text-green my-5 text-2xl font-semibold ${openSans.className}`}
         >
           Informations :
         </h2>
@@ -132,7 +144,7 @@ export default function Home() {
           <Link
             href="https://location-cabinet-sceaux.fr"
             target="_blank"
-            className="font-bold text-cta underline"
+            className="c-text-link"
           >
             https://location-cabinet-sceaux.fr
           </Link>

@@ -4,39 +4,64 @@ const Footer = () => {
   return (
     <footer className="footer bg-juniper-700 pt-8 text-xs text-white">
       <div className="container justify-between pb-8 md:flex-col">
+        <h3 className="mb-5 text-2xl">Plan du site</h3>
         <nav>
           <ul className="flex flex-col gap-y-4">
             <li>
               <Link
-                href="/"
-                className={`mr-auto w-full text-2xl font-semibold uppercase text-green-dark md:w-auto`}
+                href="/psychologue-sceaux"
+                className="c-text-link--dark"
               >
-                Sceaux Equilibre
+                Psychothérapies
               </Link>
             </li>
             <li>
-              <Link href="/psychologue-sceaux">Psychothérapies</Link>
+              <Link
+                href="/dieteticienne-sceaux"
+                className="c-text-link--dark"
+              >
+                Diététique
+              </Link>
             </li>
             <li>
-              <Link href="/dieteticienne-sceaux">Diététique</Link>
+              <Link
+                href="/hypnose-sceaux"
+                className="c-text-link--dark"
+              >
+                Hypnose
+              </Link>
             </li>
             <li>
-              <Link href="/hypnose-sceaux">Hypnose</Link>
+              <Link
+                href="/bilan-psychologique"
+                className="c-text-link--dark"
+              >
+                Bilans
+              </Link>
             </li>
             <li>
-              <Link href="/bilan-psychologique">Bilans</Link>
+              <Link
+                href="/psychanalyste-sceaux"
+                className="c-text-link--dark"
+              >
+                Psychanalyse
+              </Link>
             </li>
             <li>
-              <Link href="/psychanalyste-sceaux">Psychanalyse</Link>
+              <Link
+                href="/psychomotricite"
+                className="c-text-link--dark"
+              >
+                Psychomotricité
+              </Link>
             </li>
             <li>
-              <Link href="/psychomotricite">Psychomotricité</Link>
-            </li>
-            <li>
-              <Link href="/relaxation-sceaux">Relaxation</Link>
-            </li>
-            <li>
-              <Link href="/therapie-cognitive-comportementale">TCC</Link>
+              <Link
+                href="/relaxation-sceaux"
+                className="c-text-link--dark"
+              >
+                Relaxation
+              </Link>
             </li>
           </ul>
         </nav>

@@ -38,7 +38,7 @@ const PsychologueSceauxPage = () => {
           Parmi ces approches, les{' '}
           <Link
             href="/psychotherapies-psychanalytiques"
-            className="underline"
+            className="c-text-link"
           >
             {' '}
             <strong>psychothérapies psychanalytiques </strong>
@@ -47,7 +47,7 @@ const PsychologueSceauxPage = () => {
           inconscients. Les{' '}
           <Link
             href="/therapie-cognitive-comportementale"
-            className="underline"
+            className="c-text-link"
           >
             <strong>thérapies comportementales et cognitives (T.C.C.) </strong>
           </Link>
@@ -74,7 +74,7 @@ const PsychologueSceauxPage = () => {
           son approche novatrice du traitement des traumatismes. La{' '}
           <Link
             href="/pleine-conscience-sceaux"
-            className="text-cta hover:text-cta-dark underline transition-colors ease-out"
+            className="c-text-link"
           >
             <strong>thérapie par la pleine conscience</strong>
           </Link>
@@ -129,7 +129,7 @@ const PsychologueSceauxPage = () => {
           l&apos;usage du{' '}
           <Link
             href="https://www.iledefrance.paps.sante.fr/usage-du-titre-de-psychotherapeute-3"
-            className="text-cta hover:text-cta-dark underline transition-colors ease-out"
+            className="c-text-link"
             target="_blank"
           >
             titre de psychothérapeute

@@ -72,3 +72,14 @@
     @apply px-8 py-4 rounded-b-md;
 }
 
+.c-text-link {
+    @apply text-atlantis-800 hover:text-atlantis-600 font-semibold underline transition-colors ease-out;
+}
+
+.c-text-link--dark {
+    @apply text-atlantis-50 hover:text-atlantis-200 font-semibold underline transition-colors ease-out;
+}
+
+.c-nav-link {
+    @apply font-semibold text-juniper-50 hover:text-juniper-100 transition-colors ease-out;
+}

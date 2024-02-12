@@ -74,7 +74,7 @@ const DieteticienneSceauxPage = () => {
           compte de la personnalité et du mode de vie de chaque individu.
         </p>
       </div>
-      <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Lucille Anglard, diététicienne à Sceaux
         </h2>
@@ -91,7 +91,7 @@ const DieteticienneSceauxPage = () => {
         <Link
           href="https://www.doctolib.fr/dieteticien/paris/lucille-anglard"
           target="_blank"
-          className="my-5 block rounded bg-cta p-3 text-center text-white transition-colors ease-out hover:bg-cta-dark"
+          className="bg-atlantis-500 hover:bg-atlantis-600 my-5 block rounded p-3 text-center text-white transition-colors ease-out"
         >
           Prendre RDV sur Doctolib
         </Link>
