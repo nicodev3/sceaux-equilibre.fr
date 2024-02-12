@@ -45,7 +45,7 @@ const ContactPage = () => {
           <textarea
             placeholder="votre message"
             className="flex-1 rounded border p-1"
-            rows="6"
+            rows={6}
           />
         </label>
       </p>
