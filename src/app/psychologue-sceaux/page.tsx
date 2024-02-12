@@ -59,7 +59,12 @@ const PsychologueSceauxPage = () => {
           lesquels nous vivons, qu&apos;il s&apos;agisse de notre famille, de
           notre lieu de travail ou de toute autre structure sociale.
         </p>
-
+        <Image
+          src="/psychologue.jpeg"
+          width="800"
+          height="533"
+          alt="illustration psychologue"
+        />
         <p>
           Néanmoins, d&apos;autres formes de thérapies émergent, ajoutant de
           nouvelles couleurs à cette palette déjà riche. La{' '}
@@ -69,7 +74,7 @@ const PsychologueSceauxPage = () => {
           son approche novatrice du traitement des traumatismes. La{' '}
           <Link
             href="/pleine-conscience-sceaux"
-            className="text-cta underline transition-colors ease-out hover:text-cta-dark"
+            className="text-cta hover:text-cta-dark underline transition-colors ease-out"
           >
             <strong>thérapie par la pleine conscience</strong>
           </Link>
@@ -108,7 +113,7 @@ const PsychologueSceauxPage = () => {
           meilleur allié.
         </p>
       </section>
-      <aside className="rounded border border-green p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>A savoir</h2>
         <Image
           src="/psychologue-adulte.png"
@@ -124,7 +129,7 @@ const PsychologueSceauxPage = () => {
           l&apos;usage du{' '}
           <Link
             href="https://www.iledefrance.paps.sante.fr/usage-du-titre-de-psychotherapeute-3"
-            className="text-cta underline transition-colors ease-out hover:text-cta-dark"
+            className="text-cta hover:text-cta-dark underline transition-colors ease-out"
             target="_blank"
           >
             titre de psychothérapeute

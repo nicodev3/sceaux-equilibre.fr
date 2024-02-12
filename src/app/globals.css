@@ -43,6 +43,10 @@
     p {
         @apply mb-5;
     }
+
+    img {
+        @apply my-10;
+    }
 }
 
 .c-le-point-sur {

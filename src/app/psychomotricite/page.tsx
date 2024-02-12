@@ -1,4 +1,5 @@
 import { openSans } from '@/app/fonts'
+import Image from 'next/image'
 
 const PsychomotricitePage = () => {
   return (
@@ -35,6 +36,12 @@ const PsychomotricitePage = () => {
             l&apos;enfant afin de favoriser l&apos;intégration harmonieuse de
             ses diverses fonctions.
           </p>
+          <Image
+            src="/psychomotricite.png"
+            width="800"
+            height="819"
+            alt="illustration psychomotricité"
+          />
           <h2 className={`${openSans.className}`}>Rééducation</h2>
           <p>
             Rééducation des troubles du développement psychomoteur ou des

@@ -1,4 +1,5 @@
 import { openSans } from '@/app/fonts'
+import Image from 'next/image'
 
 const RelaxationSceauxPage = () => {
   return (
@@ -21,6 +22,12 @@ const RelaxationSceauxPage = () => {
           psychomotriciens feront évoluer ces techniques dont les domaines
           d&apos;application sont nombreux.
         </p>
+        <Image
+          src="/relaxation.jpeg"
+          width="800"
+          height="533"
+          alt="illustration relaxation"
+        />
         <p>
           La relaxation pratiquée dans ce cadre, le plus souvent par les
           psychomotriciens, mais aussi certains psychologues ou médecins

@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const PsychanalysteSceauxPage = () => {
   return (
     <div className="c-page-layout grid gap-10 lg:grid-cols-12">
@@ -33,6 +35,12 @@ const PsychanalysteSceauxPage = () => {
           C’est d’ailleurs une patiente d’un collègue de Freud, Anna O., qui la
           première évoque la « cure de parole » dès les années 1880.
         </p>
+        <Image
+          src="/psychanalyse.jpeg"
+          width="800"
+          height="533"
+          alt="illustration psychanalyse"
+        />
         <p>
           Inventée car les élaborations théoriques qui ont suivi la découverte
           freudienne sont une création intellectuelle destinée à donner corps à
