@@ -60,6 +60,12 @@ const Header = () => {
         >
           Drainage lymphatique
         </Link>
+        <Link
+          href="/contact"
+          className="c-nav-link ml-5"
+        >
+          Contact
+        </Link>
       </nav>
       <button
         onClick={handleMenuClick}
