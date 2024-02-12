@@ -83,3 +83,7 @@
 .c-nav-link {
     @apply py-6 md:py-0 text-lg font-semibold text-juniper-50 hover:text-juniper-100 transition-colors ease-out;
 }
+
+.c-btn-cta {
+    @apply bg-atlantis-600 hover:bg-atlantis-600 my-5 ml-auto block rounded p-3 text-center text-white transition-colors ease-out;
+}

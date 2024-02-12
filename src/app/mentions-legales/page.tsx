@@ -37,12 +37,11 @@ const MentionsLegalesPage = () => {
       </p>
 
       <p>
-        L&apos;hébergeur du site
+        L&apos;hébergeur du site{' '}
         <a href="https://www.sceaux-equilibre.fr/">
           https://www.sceaux-equilibre.fr/
         </a>
-        est la société Vercel Inc., dont le siège social est situé au 440 N
-        Barranca Ave #4133 Covina, CA 91723.
+        est Netlify
       </p>
 
       <h2 className={`text-xl ${openSans.className}`}>

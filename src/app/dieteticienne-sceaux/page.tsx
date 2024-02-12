@@ -91,7 +91,7 @@ const DieteticienneSceauxPage = () => {
         <Link
           href="https://www.doctolib.fr/dieteticien/paris/lucille-anglard"
           target="_blank"
-          className="bg-atlantis-500 hover:bg-atlantis-600 my-5 block rounded p-3 text-center text-white transition-colors ease-out"
+          className="c-btn-cta"
         >
           Prendre RDV sur Doctolib
         </Link>

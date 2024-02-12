@@ -9,18 +9,10 @@ const Footer = () => {
           <ul className="flex flex-col gap-y-4">
             <li>
               <Link
-                href="/psychologue-sceaux"
+                href="/psychotherapies-sceaux"
                 className="c-text-link--dark"
               >
                 Psychothérapies
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/dieteticienne-sceaux"
-                className="c-text-link--dark"
-              >
-                Diététique
               </Link>
             </li>
             <li>
@@ -33,34 +25,34 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/bilan-psychologique"
+                href="/dieteticienne-sceaux"
                 className="c-text-link--dark"
               >
-                Bilans
+                Diététique
               </Link>
             </li>
             <li>
               <Link
-                href="/psychanalyste-sceaux"
+                href="/drainage-lymphatique"
                 className="c-text-link--dark"
               >
-                Psychanalyse
+                Drainage lymphatique
               </Link>
             </li>
             <li>
               <Link
-                href="/psychomotricite"
+                href="/contact"
                 className="c-text-link--dark"
               >
-                Psychomotricité
+                Contact
               </Link>
             </li>
             <li>
               <Link
-                href="/relaxation-sceaux"
+                href="/plan-du-site"
                 className="c-text-link--dark"
               >
-                Relaxation
+                Plan du site
               </Link>
             </li>
           </ul>
@@ -68,7 +60,7 @@ const Footer = () => {
       </div>
       <div className="bg-norway-900 py-3">
         <p className="container">
-          Tous droits réservés, SCI Nicolas DEVAUX, 2023
+          Tous droits réservés, SCI Nicolas DEVAUX, 2024
         </p>
       </div>
     </footer>

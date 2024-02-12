@@ -31,22 +31,16 @@ const Header = () => {
           Sceaux Equilibre
         </Link>
         <Link
-          href="/psychologue-sceaux"
+          href="/psychotherapies-sceaux"
           className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
         >
           Psychothérapies
         </Link>
         <Link
           href="/hypnose-sceaux"
-          className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
-        >
-          Hypnose
-        </Link>
-        <Link
-          href="/psychanalyste-sceaux"
           className="c-nav-link md:mr-20"
         >
-          Psychanalyse
+          Hypnose
         </Link>
         <Link
           href="/dieteticienne-sceaux"

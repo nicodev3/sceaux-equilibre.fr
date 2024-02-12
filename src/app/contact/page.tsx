@@ -60,7 +60,7 @@ const ContactPage = () => {
         <p>
           <button
             type="submit"
-            className="bg-atlantis-500 hover:bg-atlantis-600 my-5 ml-auto block rounded p-3 text-center text-white transition-colors ease-out"
+            className="c-btn-cta"
           >
             Envoyer
           </button>

@@ -51,12 +51,13 @@ export default function Home() {
             <p className="p-10 pt-0">
               Il existe de nombreuses formes de psychothérapies, des plus
               traditionnelles comme la psychanalyse, à des approches innovantes
-              comme la thérapie par la pleine conscience. Découvrez les{' '}
+              comme la thérapie par la pleine conscience. Découvrez les
+              différentes formes de{' '}
               <Link
-                href="/psychologue-sceaux"
+                href="/psychotherapies-sceaux"
                 className="c-text-link"
               >
-                différentes formes de psychothérapies
+                psychothérapies
               </Link>{' '}
               et trouvez celle qui vous correspond.
             </p>
@@ -72,7 +73,7 @@ export default function Home() {
               basée sur la modification de l&apos;état de conscience. Loin de
               l&apos;hypnose de spectacle, il s&apos;agit d&apos;une véritable
               approche soignante. Apprenez-en davantage sur les bienfaits de
-              l&apos;{' '}
+              l&apos;
               <Link
                 href="/hypnose-sceaux"
                 className="c-text-link"
