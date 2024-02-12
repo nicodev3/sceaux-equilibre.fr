@@ -81,5 +81,5 @@
 }
 
 .c-nav-link {
-    @apply font-semibold text-juniper-50 hover:text-juniper-100 transition-colors ease-out;
+    @apply py-6 md:py-0 text-lg font-semibold text-juniper-50 hover:text-juniper-100 transition-colors ease-out;
 }
