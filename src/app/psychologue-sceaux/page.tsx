@@ -111,7 +111,17 @@ const PsychologueSceauxPage = () => {
           strictement réglementé. Cette mesure vise à garantir la qualité des
           soins offerts aux patients et à protéger le public contre les
           pratiques non qualifiées. Seuls les professionnels répondant à des
-          critères précis peuvent se prévaloir de ce titre.
+          critères précis peuvent se prévaloir de ce titre. Il peut être
+          difficile de{' '}
+          <Link
+            href="/choisir-son-psy"
+            className="c-text-link"
+          >
+            choisir son psy
+          </Link>{' '}
+          mais il est important de vérifier les qualifications et
+          l&apos;enregistrement du professionnel avant de s&apos;engager dans un
+          parcours thérapeutique.
         </p>
 
         <h2 className="text-xl">Les critères d&apos;obtention du titre</h2>

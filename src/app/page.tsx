@@ -48,8 +48,15 @@ export default function Home() {
           <p className="mb-10">
             Au cabinet pluridisciplinaire de Sceaux, plusieurs professionnels
             peuvent vous accueillir pour vous accompagner vers un mieux être.
-            Psychologue, psychanalyste, nutritionniste, hypnothérapeute,
-            consultez le spécialiste qui correspond à votre besoin.
+            {` `}
+            <Link
+              href="/psychologue-sceaux"
+              className="c-text-link"
+            >
+              Psychologue
+            </Link>
+            , psychanalyste, nutritionniste, hypnothérapeute, consultez le
+            spécialiste qui correspond à votre besoin.
           </p>
           <Carousel />
         </div>

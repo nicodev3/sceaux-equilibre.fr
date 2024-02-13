@@ -59,9 +59,15 @@ const Footer = () => {
         </nav>
       </div>
       <div className="bg-norway-900 py-3">
-        <p className="container">
-          Tous droits réservés, SCI Nicolas DEVAUX, 2024
-        </p>
+        <div className="container flex justify-between">
+          <p>Tous droits réservés, SCI Nicolas DEVAUX, 2024</p>
+          <Link
+            href="/mentions-legales"
+            className="c-text-link--dark"
+          >
+            Mentions légales
+          </Link>
+        </div>
       </div>
     </footer>
   )

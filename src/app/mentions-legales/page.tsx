@@ -34,9 +34,7 @@ const MentionsLegalesPage = () => {
       </h2>
       <p>
         L’édition et la direction de la publication du site
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>
         est assurée par Devaux Nicolas.
       </p>
       <p>
@@ -49,9 +47,7 @@ const MentionsLegalesPage = () => {
 
       <p>
         L&apos;hébergeur du site{' '}
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>
         est Netlify
       </p>
 
@@ -60,9 +56,7 @@ const MentionsLegalesPage = () => {
       </h2>
       <p>
         Le site{' '}
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>
         permet à l&apos;Utilisateur un accès gratuit aux services suivants :
       </p>
       <ul>
@@ -129,9 +123,7 @@ const MentionsLegalesPage = () => {
       </h2>
       <p>
         Les sources des informations diffusées sur le site{' '}
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>
         sont réputées fiables. Toutefois, le site ne garantit pas qu’il soit
         exempt de défauts, d’erreurs ou d’omissions.
       </p>
@@ -139,9 +131,7 @@ const MentionsLegalesPage = () => {
         Les informations communiquées sont présentées à titre indicatif et
         général sans valeur contractuelle. Malgré des mises à jour régulières,
         le site{' '}
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>
         ne peut être tenu responsable de la modification des dispositions
         administratives et juridiques survenant après la publication. De même,
         le site ne peut être tenue responsable de l’utilisation et de
@@ -149,9 +139,7 @@ const MentionsLegalesPage = () => {
       </p>
       <p>
         Le site
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>
         ne peut être tenu pour responsable d’éventuels virus qui pourraient
         infecter l’ordinateur ou tout matériel informatique de l’Internaute,
         suite à une utilisation, à l’accès, ou au téléchargement provenant de ce
@@ -168,10 +156,8 @@ const MentionsLegalesPage = () => {
       <p>
         Des liens hypertextes peuvent être présents sur le site. L’Utilisateur
         est informé qu’en cliquant sur ces liens, il sortira du site{' '}
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
-        . Ce dernier n’a pas de contrôle sur les pages web sur lesquelles
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>.
+        Ce dernier n’a pas de contrôle sur les pages web sur lesquelles
         aboutissent ces liens et ne saurait, en aucun cas, être responsable de
         leur contenu.
       </p>
@@ -183,10 +169,8 @@ const MentionsLegalesPage = () => {
         cookies sont de petits fichiers stockés temporairement sur le disque dur
         de l’ordinateur de l’Utilisateur par votre navigateur et qui sont
         nécessaires à l’utilisation du site{' '}
-        <a href="https://www.sceaux-equilibre.fr/">
-          https://www.sceaux-equilibre.fr/
-        </a>
-        . Les cookies ne contiennent pas d’information personnelle et ne peuvent
+        <a href="https://sceaux-equilibre.fr/">https://sceaux-equilibre.fr/</a>.
+        Les cookies ne contiennent pas d’information personnelle et ne peuvent
         pas être utilisés pour identifier quelqu’un. Un cookie contient un
         identifiant unique, généré aléatoirement et donc anonyme. Certains
         cookies expirent à la fin de la visite de l’Utilisateur, d’autres
