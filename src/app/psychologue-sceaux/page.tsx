@@ -8,6 +8,11 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/psychologue-sceaux',
     },
+    openGraph: {
+      title: 'Psychologue à Sceaux',
+      url: '/psychologue-sceaux',
+      images: 'https://sceaux-equilibre.fr/psychologue.jpg',
+    },
     title: 'Psychologue à Sceaux',
     description:
       'Psychologue à Sceaux, psychothérapies et accompagnement psychologique pour adultes et adolescents.',

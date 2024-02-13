@@ -6,6 +6,12 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/psychotherapies-psychanalytiques',
     },
+    openGraph: {
+      title: 'Psychothérapies Psychanalytiques | Psychologue à Sceaux',
+      url: '/psychotherapies-psychanalytiques',
+      images:
+        'https://sceaux-equilibre.fr/psychotherapies-psychanalytiques.jpg',
+    },
     title: 'Psychothérapies Psychanalytiques | Psychologue à Sceaux',
     description:
       'Découvrez les psychothérapies psychanalytiques : un cadre différent, un processus psychanalytique, une formation rigoureuse et une authentique psychanalyse.',

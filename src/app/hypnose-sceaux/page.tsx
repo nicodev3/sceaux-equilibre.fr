@@ -8,6 +8,11 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/hypnose-sceaux',
     },
+    openGraph: {
+      title: 'Thérapie par Hypnose : Bienfaits et Applications',
+      url: '/hypnose-sceaux',
+      images: 'https://sceaux-equilibre.fr/sceaux-equilibre-hypnose.jpg',
+    },
     title: 'Thérapie par Hypnose : Bienfaits et Applications',
     description:
       "Découvrez les bienfaits de l'hypnose thérapeutique. De l'arrêt du tabac à l'accompagnement périnatal, l'hypnose offre des solutions douces et efficaces pour divers troubles. Explorez ses applications et redécouvrez vos potentialités.",

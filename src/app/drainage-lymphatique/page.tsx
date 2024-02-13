@@ -8,9 +8,14 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/drainage-lymphatique',
     },
+    openGraph: {
+      title: 'Drainage lymphatique et massages',
+      url: '/drainage-lymphatique',
+      images: 'https://sceaux-equilibre.fr/drainage-lymphatique.jpg',
+    },
     title: 'Drainage lymphatique et massages',
     description:
-      'Découvrez chez DESTINATION MASSAGE à Sceaux une gamme complète de massages bien-être et thérapeutiques, incluant la méthode Renata França pour le drainage lymphatique, remodelage, et Miracle Face. Profitez de massages adaptés à tous, y compris prénatal et postnatal, pour une relaxation profonde et un soulagement des douleurs musculaires, du stress et plus encore. Vanessa Treney, certifiée et passionnée, vous accueille pour une expérience unique de bien-être.',
+      'Explorez à DESTINATION MASSAGE à Sceaux, des massages bien-être et la méthode Renata França pour drainage, remodelage et plus. Profitez de soins, y compris prénatal et postnatal, pour détente et soulagement du stress.',
   }
 }
 
@@ -91,7 +96,7 @@ const DrainageLymphatiquePage = () => {
         <p>06 45 61 72 98</p>
         <Link
           href="https://www.destinationmassage.fr/"
-          className="bg-atlantis-500 hover:bg-atlantis-600 my-5 block rounded p-3 text-center text-white transition-colors ease-out"
+          className="my-5 block rounded bg-atlantis-500 p-3 text-center text-white transition-colors ease-out hover:bg-atlantis-600"
         >
           https://www.destinationmassage.fr/
         </Link>

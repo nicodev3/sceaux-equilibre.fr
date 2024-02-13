@@ -8,7 +8,7 @@ export async function generateMetadata() {
     },
     title: 'Psychanalyste Sceaux',
     description:
-      'Découvrez la psychanalyse : une méthode de psychothérapie qui explore les mécanismes inconscients et les processus de pensée. Découvrez comment la psychanalyse peut aider à gérer les défis émotionnels et améliorer le bien-être mental.',
+      "Explorez la psychanalyse, une psychothérapie qui sonde l'inconscient pour gérer les émotions et booster le bien-être mental.",
   }
 }
 

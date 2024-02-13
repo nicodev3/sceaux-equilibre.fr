@@ -7,9 +7,15 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/pleine-conscience-sceaux',
     },
+    openGraph: {
+      title: 'Thérapie par la Pleine Conscience à Sceaux',
+      url: '/pleine-conscience-sceaux',
+      images:
+        'https://sceaux-equilibre.fr/sceaux-equilibre-pleine-conscience.jpg',
+    },
     title: 'Thérapie par la Pleine Conscience à Sceaux',
     description:
-      'Découvrez la thérapie par la pleine conscience : une méthode novatrice pour gérer le stress, l&apos;anxiété et bien plus.Découvrez la thérapie par la pleine conscience : une méthode novatrice pour gérer le stress, l&apos;anxiété et bien plus.',
+      'Explorez la thérapie par la pleine conscience, une approche novatrice pour gérer stress et anxiété, et améliorer le bien-être général.',
   }
 }
 

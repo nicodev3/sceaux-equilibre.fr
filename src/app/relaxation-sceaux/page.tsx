@@ -7,6 +7,11 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/relaxation-sceaux',
     },
+    openGraph: {
+      title: 'Relaxation Psychosomatique à Sceaux : Détente et Bien-être',
+      url: '/relaxation-sceaux',
+      images: 'https://sceaux-equilibre.fr/relaxation.jpg',
+    },
     title: 'Relaxation Psychosomatique à Sceaux : Détente et Bien-être',
     description:
       'Découvrez la relaxation psychosomatique à Sceaux, une méthode thérapeutique qui vise à revisiter le chemin de l&apos;accordage affectif avec le corps, pour juguler les angoisses et améliorer le bien-être mental.',

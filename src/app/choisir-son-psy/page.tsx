@@ -6,6 +6,11 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/choisir-son-psy',
     },
+    openGraph: {
+      title: 'Choisir son psy',
+      url: '/choisir-son-psy',
+      images: 'https://sceaux-equilibre.fr/psychologue.jpg',
+    },
     title: 'Choisir son psy',
     description:
       'Comment choisir un psy ? Se repérer dans la jungle des "psys".',

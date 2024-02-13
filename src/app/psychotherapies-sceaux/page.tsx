@@ -8,9 +8,14 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/psychotherapies-sceaux',
     },
+    openGraph: {
+      title: 'Guide des Psychothérapies : Approches, Bienfaits et Conseils',
+      url: '/psychotherapies-sceaux',
+      images: 'https://sceaux-equilibre.fr/psychotherapies.jpg',
+    },
     title: 'Guide des Psychothérapies : Approches, Bienfaits et Conseils',
     description:
-      'Explorez les différentes formes de psychothérapies, de la psychanalyse à la thérapie par la pleine conscience. Découvrez comment chaque méthode peut aider à gérer les défis émotionnels et améliorer le bien-être mental.',
+      'Découvrez les psychothérapies, de la psychanalyse à la pleine conscience, pour gérer les défis émotionnels et améliorer le bien-être mental.',
   }
 }
 

@@ -7,6 +7,11 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/psychomotricite',
     },
+    openGraph: {
+      title: 'Psychomotricité',
+      url: '/psychomotricite',
+      images: 'https://sceaux-equilibre.fr/psychomotricite.png',
+    },
     title: 'Psychomotricité',
     description:
       'Les psychomotriciens sont des auxiliaires médicaux diplômés d&apos;Etat. Cette profession en plein essor possède de multiples applications. Tous les âges sont concernés, de la femme enceinte jusqu&apos;à la personne âgée. Le champ d&apos;intervention des psychomotriciens est le suivant:',

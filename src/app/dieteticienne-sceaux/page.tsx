@@ -8,6 +8,12 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/dieteticienne-sceaux',
     },
+    openGraph: {
+      title:
+        'Diététicienne Professionnelle | Conseils Alimentaires & Plans de Repas',
+      url: '/dieteticienne-sceaux',
+      images: 'https://sceaux-equilibre.fr/sceaux-equilibre-nutrition.jpg',
+    },
     title:
       'Diététicienne Professionnelle | Conseils Alimentaires & Plans de Repas',
     description:
