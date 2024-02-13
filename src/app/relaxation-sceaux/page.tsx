@@ -14,7 +14,7 @@ export async function generateMetadata() {
     },
     title: 'Relaxation Psychosomatique à Sceaux : Détente et Bien-être',
     description:
-      "Explorez la relaxation psychosomatique à Sceaux, une approche thérapeutique pour harmoniser émotions et corps, réduire l'angoisse et booster le bien-être mental.",
+      "Découvrez la relaxation psychosomatique à Sceaux : une thérapie pour aligner émotions et corps, diminuer l'angoisse et améliorer le bien-être mental.",
   }
 }
 

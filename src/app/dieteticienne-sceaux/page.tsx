@@ -17,7 +17,7 @@ export async function generateMetadata() {
     title:
       'Diététicienne Professionnelle | Conseils Alimentaires & Plans de Repas',
     description:
-      'Diététicienne professionnelle offrant des conseils alimentaires personnalisés et des plans de repas adaptés. Améliorez votre santé grâce à une alimentation équilibrée.',
+      'Diététicienne expérimentée propose conseils nutritionnels personnalisés, plans alimentaires sur mesure pour une santé optimale via une alimentation équilibrée.',
   }
 }
 

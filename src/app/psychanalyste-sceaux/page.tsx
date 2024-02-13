@@ -6,6 +6,11 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/psychanalyste-sceaux',
     },
+    openGraph: {
+      title: 'Psychanalyste Sceaux',
+      url: '/psychanalyste-sceaux',
+      images: 'https://sceaux-equilibre.fr/psychanalyste.jpg',
+    },
     title: 'Psychanalyste Sceaux',
     description:
       "Explorez la psychanalyse, une psychothérapie qui sonde l'inconscient pour gérer les émotions et booster le bien-être mental.",

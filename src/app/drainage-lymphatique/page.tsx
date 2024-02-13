@@ -15,7 +15,7 @@ export async function generateMetadata() {
     },
     title: 'Drainage lymphatique et massages',
     description:
-      'Explorez à DESTINATION MASSAGE à Sceaux, des massages bien-être et la méthode Renata França pour drainage, remodelage et plus. Profitez de soins, y compris prénatal et postnatal, pour détente et soulagement du stress.',
+      'Découvrez DESTINATION MASSAGE à Sceaux : massages bien-être, méthode Renata França pour drainage, remodelage, et soins prénatal/postnatal pour détente et anti-stress.',
   }
 }
 

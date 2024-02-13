@@ -14,7 +14,7 @@ export async function generateMetadata() {
     },
     title: 'Bilans psychologiques',
     description:
-      'Les bilans psychologiques offrent une analyse approfondie des capacités cognitives et émotionnelles, évaluant forces et difficultés via tests et entretiens par des psychologues experts.',
+      'Bilans psychologiques détaillés: évaluation complète des capacités cognitives et émotionnelles, mettant en lumière forces et points pouvant être améliorés.',
   }
 }
 

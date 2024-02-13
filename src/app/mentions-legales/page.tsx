@@ -6,6 +6,11 @@ export async function generateMetadata() {
     alternates: {
       canonical: '/mentions-legales',
     },
+    openGraph: {
+      title: 'Mentions légales',
+      url: '/mentions-legales',
+      images: '',
+    },
     title: 'Mentions légales',
     description: 'Mentions légales du site sceaux-equilibre.fr',
   }
