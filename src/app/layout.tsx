@@ -3,7 +3,6 @@ import { playfairDisplay } from './fonts'
 import './globals.css'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
-import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.sceaux-equilibre.fr/'),
@@ -34,7 +33,6 @@ export default function RootLayout({
         <Header />
         <article className="container py-10">{children}</article>
         <Footer />
-        <Analytics />
       </body>
     </html>
   )
