@@ -51,7 +51,7 @@ const DieteticienneSceauxPage = () => {
         </p>
 
         <h2 className={`text-xl ${openSans.className}`}>Services Proposés</h2>
-        <ul>
+        <ul className="flex list-disc flex-col gap-4 pl-8">
           <li>
             <strong>Consultation initiale</strong> : Évaluation de vos habitudes
             alimentaires, antécédents médicaux et objectifs.
@@ -81,7 +81,7 @@ const DieteticienneSceauxPage = () => {
           compte de la personnalité et du mode de vie de chaque individu.
         </p>
       </div>
-      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green c-wysiwyg rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Lucille Anglard, diététicienne à Sceaux
         </h2>
@@ -93,8 +93,11 @@ const DieteticienneSceauxPage = () => {
           principal objectif étant de vous accompagner vers vos aspirations en
           matière de santé et d&apos;épanouissement personnel.
         </p>
-        <p className="mb-3">Contact et rdv :</p>
-        <p>06 38 01 10 32</p>
+        <p>
+          Lucille Anglard consulte au cabinet de Sceaux tous les lundis matins
+          de 8h00 à 14h00.
+        </p>
+        <p className="text-center text-2xl font-semibold">06 38 01 10 32</p>
         <Link
           href="https://www.doctolib.fr/dieteticien/paris/lucille-anglard"
           target="_blank"

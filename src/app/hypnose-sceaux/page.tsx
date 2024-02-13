@@ -93,7 +93,7 @@ const HypnoSceauxPage = () => {
           bien-être optimal.
         </p>
       </div>
-      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green c-wysiwyg rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Audrey Bruderer, hypnothérapeute à Sceaux
         </h2>
@@ -101,14 +101,13 @@ const HypnoSceauxPage = () => {
           Audrey Bruderer vous accueil au cabinet de Sceaux, 63 rue Houdan, les
           vendredis après-midi et samedis matins.
         </p>
-        <p className="mb-3">Contact et rdv :</p>
-        <p>06 16 18 81 04</p>
+        <p className="text-center text-2xl font-semibold">06 16 18 81 04</p>
         <Link
           href="https://www.bruderer-hypnose.com/"
           target="_blank"
-          className="bg-cta hover:bg-cta-dark my-5 block rounded p-3 text-center text-white transition-colors ease-out"
+          className="c-btn-cta my-5 block rounded p-3 text-center text-white transition-colors ease-out"
         >
-          Visiter son site
+          Audrey Bruderer - Hypnothérapeute
         </Link>
 
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>

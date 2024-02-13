@@ -84,7 +84,7 @@ const DrainageLymphatiquePage = () => {
           accompagner la jeune maman dans son rétablissement et son bien-être.
         </p>
       </div>
-      <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green c-wysiwyg rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>
           Vanessa Treney, Masseuse Bien-être à Sceaux
         </h2>
@@ -92,8 +92,8 @@ const DrainageLymphatiquePage = () => {
           Vanessa Treney vous accueille dans un cadre chaleureux et apaisant les
           mardis et jeudis.
         </p>
-        <p className="mb-3">Contact et rdv :</p>
-        <p>06 45 61 72 98</p>
+
+        <p className="text-center text-2xl font-semibold">06 45 61 72 98</p>
         <Link
           href="https://www.destinationmassage.fr/"
           className="my-5 block rounded bg-atlantis-500 p-3 text-center text-white transition-colors ease-out hover:bg-atlantis-600"
