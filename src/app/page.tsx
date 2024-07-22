@@ -69,9 +69,19 @@ export default function Home() {
             </h2>
             <p className="p-10 pt-0">
               Il existe de nombreuses formes de psychothérapies, des plus
-              traditionnelles comme la psychanalyse, à des approches innovantes
-              comme la thérapie par la pleine conscience. Découvrez les
-              différentes formes de{' '}
+              traditionnelles comme la <Link
+              href="/psychanalyste-sceaux"
+              className="c-text-link"
+              >
+                psychanalyse
+              </Link>{' '}
+              , à des approches innovantes comme la <Link
+              href="/pleine-conscience-sceaux"
+              className="c-text-link"
+              >
+                thérapie par la pleine
+              conscience
+              </Link>. Découvrez les différentes formes de{' '}
               <Link
                 href="/psychotherapies-sceaux"
                 className="c-text-link"
