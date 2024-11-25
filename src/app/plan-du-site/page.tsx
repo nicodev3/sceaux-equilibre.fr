@@ -86,14 +86,6 @@ const PlanDuSitePage = () => {
           </li>
           <li>
             <Link
-              href="/psychologue-sceaux"
-              className="c-text-link"
-            >
-              Psychologue Sceaux
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/pleine-conscience-sceaux"
               className="c-text-link"
             >
