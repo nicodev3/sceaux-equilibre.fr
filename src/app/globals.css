@@ -85,5 +85,5 @@
 }
 
 .c-btn-cta {
-    @apply bg-atlantis-600 hover:bg-atlantis-500 block rounded p-3 text-center text-white transition-colors ease-out;
+    @apply bg-atlantis-700 hover:bg-atlantis-500 block rounded p-3 text-center text-white transition-colors ease-out;
 }
