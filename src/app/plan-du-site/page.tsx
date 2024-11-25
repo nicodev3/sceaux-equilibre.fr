@@ -20,14 +20,7 @@ const PlanDuSitePage = () => {
       </header>
       <nav>
         <ul className="flex flex-col gap-y-4">
-          <li>
-            <Link
-              href="/drainage-lymphatique"
-              className="c-text-link"
-            >
-              Drainage lymphatique
-            </Link>
-          </li>
+
           <li>
             <Link
               href="/psychologue-sceaux"

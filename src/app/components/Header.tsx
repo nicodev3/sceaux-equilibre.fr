@@ -49,12 +49,6 @@ const Header = () => {
           Diététique
         </Link>
         <Link
-          href="/drainage-lymphatique"
-          className="c-nav-link"
-        >
-          Drainage lymphatique
-        </Link>
-        <Link
           href="/contact"
           className="c-nav-link md:ml-5"
         >

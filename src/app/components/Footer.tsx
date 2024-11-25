@@ -33,14 +33,6 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/drainage-lymphatique"
-                className="c-text-link--dark"
-              >
-                Drainage lymphatique
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/contact"
                 className="c-text-link--dark"
               >

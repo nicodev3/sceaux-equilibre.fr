@@ -108,25 +108,7 @@ export default function Home() {
               .
             </p>
           </div>
-          <div className="flex flex-col gap-5 rounded shadow">
-            <h2
-              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
-            >
-              Drainage lymphatique et massages
-            </h2>
-            <p className="p-10 pt-0">
-              Massage prénatal et postnatal, drainage lymphatique, méthode
-              Renata França, Vanessa Treney vous accueille. Découvrez les
-              bienfaits du{' '}
-              <Link
-                href="/drainage-lymphatique"
-                className="c-text-link"
-              >
-                drainage lymphatique et des massages
-              </Link>{' '}
-              tous les mardis et jeudis au cabinet de Sceaux.
-            </p>
-          </div>
+ 
           <div className="flex flex-col gap-5 rounded shadow">
             <h2
               className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
