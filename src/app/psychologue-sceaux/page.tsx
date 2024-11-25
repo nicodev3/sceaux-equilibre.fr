@@ -112,13 +112,7 @@ const PsychologueSceauxPage = () => {
           soins offerts aux patients et à protéger le public contre les
           pratiques non qualifiées. Seuls les professionnels répondant à des
           critères précis peuvent se prévaloir de ce titre. Il peut être
-          difficile de{' '}
-          <Link
-            href="/choisir-son-psy"
-            className="c-text-link"
-          >
-            choisir son psy
-          </Link>{' '}
+          difficile de choisir son psy
           mais il est important de vérifier les qualifications et
           l&apos;enregistrement du professionnel avant de s&apos;engager dans un
           parcours thérapeutique.

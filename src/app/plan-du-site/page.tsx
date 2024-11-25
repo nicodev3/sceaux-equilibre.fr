@@ -22,22 +22,6 @@ const PlanDuSitePage = () => {
         <ul className="flex flex-col gap-y-4">
           <li>
             <Link
-              href="/choisir-son-psy"
-              className="c-text-link"
-            >
-              Choisir son psy
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/bilan-psychologique"
-              className="c-text-link"
-            >
-              Bilan psychologique
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/drainage-lymphatique"
               className="c-text-link"
             >
@@ -82,14 +66,6 @@ const PlanDuSitePage = () => {
               className="c-text-link"
             >
               Relaxtion Sceaux
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/pleine-conscience-sceaux"
-              className="c-text-link"
-            >
-              Pleine Conscience Sceaux
             </Link>
           </li>
           <li>

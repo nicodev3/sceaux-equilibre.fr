@@ -84,13 +84,7 @@ const PsycholotherapiesSceauxPage = () => {
           conscience dans le moment présent. L&apos;<strong>EMDR</strong> (Eye
           Movement Desensitization and Reprocessing) est devenu populaire pour
           son approche novatrice du traitement des traumatismes. La{' '}
-          <Link
-            href="/pleine-conscience-sceaux"
-            className="c-text-link"
-          >
-            <strong>thérapie par la pleine conscience</strong>
-          </Link>
-          , inspirée des traditions méditatives, est une autre méthode qui gagne
+          <strong>thérapie par la pleine conscience</strong>, inspirée des traditions méditatives, est une autre méthode qui gagne
           en reconnaissance. Elle se concentre sur l&apos;entraînement de
           l&apos;esprit à rester dans le moment présent, offrant aux patients
           des outils pour gérer le stress, l&apos;anxiété et d&apos;autres
