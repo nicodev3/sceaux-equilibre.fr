@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from &apos;next/link'
 import Image from 'next/image'
 import { openSans } from '@/app/fonts'
 import Card from '@/app/components/Card'
@@ -125,13 +125,13 @@ Sa formation psychanalytique lui permet d'être un partenaire de l'individu en s
 
         <p>
           En France, le titre de psychologue est protégé par la loi. Pour
-          l'utiliser, il faut avoir un Master en psychologie reconnu par l'État
-          et être inscrit à l'Agence Régionale de Santé (ARS). Cette
+          l&apos;utiliser, il faut avoir un Master en psychologie reconnu par l&apos;État
+          et être inscrit à l&apos;Agence Régionale de Santé (ARS). Cette
           réglementation garantit la qualité des soins et protège le public.
         </p>
 
         <p>
-          En cas de doute sur la qualification d'un psychologue, vous pouvez
+          En cas de doute sur la qualification d&apos;un psychologue, vous pouvez
           consulter le registre ADELI qui recense tous les professionnels
           autorisés à exercer en France.
         </p>
