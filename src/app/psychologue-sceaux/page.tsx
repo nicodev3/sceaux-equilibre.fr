@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { openSans } from '@/app/fonts'
+import Card from '@/app/components/Card'
 
 export async function generateMetadata() {
   return {
@@ -36,6 +37,22 @@ const PsychologueSceauxPage = () => {
             travers des approches thérapeutiques adaptées.
           </p>
         </header>
+
+        <section className='grid md:grid-cols-2 gap-12 mb-8'>
+          <Card
+            title="Nicolas Devaux"
+            description="Psychologue clinicien et psychothérapeute, Nicolas Devaux propose un accompagnement psychologique pour les adultes et les adolescents. Il est spécialisé dans la gestion des troubles anxieux, la dépression, la confiance en soi, et la gestion des émotions. Sa pratique s'appuie sur des méthodes thérapeutiques reconnues pour favoriser le mieux-être de ses patients."
+            href='https://www.doctolib.fr/psychologue/sceaux/nicolas-devaux-sceaux'
+            linkText='Prendre rendez-vous'
+          />
+          <Card
+            title="Andreas Matthaiou"
+            description="Psychologue clinicien d'orientation psychanalytique. Membre de l'association de la cause freudienne. Andréas Matthaiou est spécialiste dans la psychologie de l'enfant, l'adolescent et l'adulte. 
+Sa formation psychanalytique lui permet d'être un partenaire de l'individu en souffrance afin de l'accompagner vers un mieux être. "
+            href='https://www.doctolib.fr/psychologue/sceaux/andreas-matthaiou'
+            linkText='Prendre rendez-vous'
+          />
+        </section>
 
         <section>
           <h2>Évaluation et diagnostic</h2>
@@ -95,9 +112,9 @@ const PsychologueSceauxPage = () => {
           </p>
         </section>
       </section>
-      <aside className="border-green flex flex-col gap-4 rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
+      <aside className="border-green text-sm flex flex-col gap-4 rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
         <h2 className={`mb-3 text-2xl ${openSans.className}`}>
-          Usage du Titre de Psychologue en France
+          Usage du Titre de Psychologue
         </h2>
         <Image
           src="/psychologue-adulte.png"
@@ -107,37 +124,16 @@ const PsychologueSceauxPage = () => {
         />
 
         <p>
-          En France, le titre de psychologue est protégé et son usage est
-          strictement réglementé. Cette mesure vise à garantir la qualité des
-          soins offerts aux patients et à protéger le public contre les
-          pratiques non qualifiées. Seuls les professionnels répondant à des
-          critères précis peuvent se prévaloir de ce titre. Il peut être
-          difficile de choisir son psy
-          mais il est important de vérifier les qualifications et
-          l&apos;enregistrement du professionnel avant de s&apos;engager dans un
-          parcours thérapeutique.
+          En France, le titre de psychologue est protégé par la loi. Pour
+          l'utiliser, il faut avoir un Master en psychologie reconnu par l'État
+          et être inscrit à l'Agence Régionale de Santé (ARS). Cette
+          réglementation garantit la qualité des soins et protège le public.
         </p>
 
-        <h2 className="text-xl">Les critères d&apos;obtention du titre</h2>
         <p>
-          Pour utiliser le titre de psychologue, il est nécessaire de remplir
-          certaines conditions. La plus fondamentale est l&apos;obtention
-          d&apos;un Master en psychologie, incluant un stage professionnel. De
-          plus, le diplôme doit être reconnu par l&apos;État français. Les
-          psychologues doivent également s&apos;inscrire auprès de l&apos;Agence
-          Régionale de Santé (ARS) de leur région, ce qui permet une
-          vérification de leurs qualifications et de leur droit à exercer.
-        </p>
-
-        <h2 className="text-xl">La protection du public</h2>
-        <p>
-          La réglementation autour du titre de psychologue assure une protection
-          pour les personnes cherchant à bénéficier de soins psychologiques.
-          Elle permet de distinguer les professionnels qualifiés des individus
-          non formés prétendant à cette expertise. En cas de doute sur la
-          qualification d&apos;un psychologue, il est possible de consulter le
-          registre ADELI, qui recense tous les psychologues enregistrés en
-          France.
+          En cas de doute sur la qualification d'un psychologue, vous pouvez
+          consulter le registre ADELI qui recense tous les professionnels
+          autorisés à exercer en France.
         </p>
       </aside>
     </div>

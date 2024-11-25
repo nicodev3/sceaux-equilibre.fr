@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Card from '@/app/components/Card'
 import Carousel from '@/app/components/Carousel'
 import { openSans } from './fonts'
 
@@ -21,11 +22,11 @@ export default function Home() {
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <div className="mb-12">
           <header className="mb-5">
-            <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>
+            <h1 className={`mb-5 xl:mb-12 text-3xl xl:text-4xl ${openSans.className}`}>
               Cabinet de consultation pluridisciplinaire à Sceaux
             </h1>
 
-            <h2 className="mb-5 text-2xl xl:text-3xl">
+            <h2 className="mb-5  xl:mb-8 text-2xl xl:text-3xl">
               (Re)Trouvez votre équilibre
             </h2>
             <p className="mb-5">
@@ -61,74 +62,25 @@ export default function Home() {
           <Carousel />
         </div>
         <div className="grid gap-10 md:grid-cols-2">
-          <div className="flex flex-col gap-5 rounded shadow">
-            <h2
-              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
-            >
-              Psychothérapies
-            </h2>
-            <p className="p-10 pt-0">
-              Il existe de nombreuses formes de psychothérapies, des plus
-              traditionnelles comme la <Link
-                href="/psychanalyste-sceaux"
-                className="c-text-link"
-              >
-                psychanalyse
-              </Link>{' '}
-              , à des approches innovantes comme la
-              thérapie par la pleine
-              conscience. Découvrez les différentes formes de{' '}
-              <Link
-                href="/psychotherapies-sceaux"
-                className="c-text-link"
-              >
-                psychothérapies
-              </Link>{' '}
-              et trouvez celle qui vous correspond.
-            </p>
-          </div>
-          <div className="flex flex-col gap-5 rounded shadow">
-            <h2
-              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
-            >
-              Hypnose
-            </h2>
-            <p className="p-10 pt-0">
-              Explorez le pouvoir de l&apos;hypnose, une méthode thérapeutique
-              basée sur la modification de l&apos;état de conscience. Loin de
-              l&apos;hypnose de spectacle, il s&apos;agit d&apos;une véritable
-              approche soignante. Apprenez-en davantage sur les bienfaits de
-              l&apos;
-              <Link
-                href="/hypnose-sceaux"
-                className="c-text-link"
-              >
-                hypnose
-              </Link>{' '}
-              .
-            </p>
-          </div>
- 
-          <div className="flex flex-col gap-5 rounded shadow">
-            <h2
-              className={`bg-raffia-100 px-10 py-5 text-xl font-semibold text-raffia-900 ${openSans.className}`}
-            >
-              Conseils en Diététique
-            </h2>
-            <p className="p-10 pt-0">
-              Mangez de manière équilibrée et saine avec Lucille Anglard, votre
-              diététicienne. Elle saura adapter vos habitudes alimentaires à vos
-              besoins spécifiques, vous aidant ainsi à atteindre vos objectifs
-              de santé et de bien-être. Découvrez comment une{' '}
-              <Link
-                href="/dieteticienne-sceaux"
-                className="c-text-link"
-              >
-                diététicienne
-              </Link>{' '}
-              peut vous aider.
-            </p>
-          </div>
+          <Card
+            title="Psychologue"
+            description="Le psychologue en cabinet libéral joue un rôle crucial dans le domaine de la santé mentale. Spécialiste de l'esprit humain, il offre un espace de parole sécurisé pour explorer, comprendre et traiter les troubles émotionnels et comportementaux."
+            href="/psychologue-sceaux"
+            linkText="En savoir plus"
+          />
+
+          <Card
+            title="Hypnose"
+            description="Explorez le pouvoir de l'hypnose, une méthode thérapeutique basée sur la modification de l'état de conscience. Loin de l'hypnose de spectacle, il s'agit d'une véritable approche soignante qui peut vous aider à atteindre vos objectifs de changement."
+            href="/hypnose-sceaux"
+            linkText="En savoir plus" 
+          />
+          <Card
+            title="Diététique"
+            description="Mangez de manière équilibrée et saine avec Lucille Anglard, votre diététicienne. Elle saura adapter vos habitudes alimentaires à vos besoins spécifiques, vous aidant ainsi à atteindre vos objectifs de santé et de bien-être."
+            href="/dieteticienne-sceaux"
+            linkText="En savoir plus"
+          />
         </div>
       </section>
       <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
