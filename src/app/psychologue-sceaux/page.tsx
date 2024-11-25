@@ -1,4 +1,3 @@
-import Link from &apos;next/link'
 import Image from 'next/image'
 import { openSans } from '@/app/fonts'
 import Card from '@/app/components/Card'
