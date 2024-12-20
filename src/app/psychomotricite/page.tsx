@@ -55,8 +55,8 @@ const PsychomotricitePage = () => {
           </p>
           <Image
             src="/psychomotricite.png"
-            width="800"
-            height="819"
+            width="400"
+            height="410"
             alt="illustration psychomotricité"
           />
           <h2 className={`${openSans.className}`}>Rééducation</h2>
