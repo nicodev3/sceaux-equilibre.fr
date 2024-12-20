@@ -40,24 +40,16 @@ export default function Home() {
               totalité, peut s&apos;avérer bénéfique. Cette approche vise à
               intégrer les aspects physiologiques, psychologiques et
               comportementaux de l&apos;individu. Qu&apos;il s&apos;agisse
-              d&apos;explorer des thérapies centrées sur l&apos;esprit, de
-              bénéficier de conseils nutritionnels adaptés ou de découvrir des
-              techniques de pleine conscience, l&apos;objectif est de favoriser
-              une harmonie intérieure et extérieure.
+              d&apos;explorer des thérapies centrées sur l&apos;esprit,
+              de découvrir des techniques de pleine conscience, de relaxation ou des approches corporelles de soin psychique, l&apos;objectif
+              est de favoriser une harmonie intérieure et extérieure.
             </p>
           </header>
           <p className="mb-10">
             Au cabinet pluridisciplinaire de Sceaux, plusieurs professionnels
             peuvent vous accueillir pour vous accompagner vers un mieux être.
-            {` `}
-            <Link
-              href="/psychologue-sceaux"
-              className="c-text-link"
-            >
-              Psychologue
-            </Link>
-            , psychanalyste, nutritionniste, hypnothérapeute, consultez le
-            spécialiste qui correspond à votre besoin.
+            Psychologue, psychanalyste, psychomotricien, consultez le spécialiste
+            qui correspond à votre besoin.
           </p>
           <Carousel />
         </div>
@@ -68,17 +60,10 @@ export default function Home() {
             href="/psychologue-sceaux"
             linkText="En savoir plus"
           />
-
           <Card
-            title="Hypnose"
-            description="Explorez le pouvoir de l'hypnose, une méthode thérapeutique basée sur la modification de l'état de conscience. Loin de l'hypnose de spectacle, il s'agit d'une véritable approche soignante qui peut vous aider à atteindre vos objectifs de changement."
-            href="/hypnose-sceaux"
-            linkText="En savoir plus" 
-          />
-          <Card
-            title="Diététique"
-            description="Mangez de manière équilibrée et saine avec Lucille Anglard, votre diététicienne. Elle saura adapter vos habitudes alimentaires à vos besoins spécifiques, vous aidant ainsi à atteindre vos objectifs de santé et de bien-être."
-            href="/dieteticienne-sceaux"
+            title="Psychomotricité"
+            description="La psychomotricité est une approche qui combine les sciences de la psychologie et de la motricité. Elle vise à favoriser le développement de l'enfant et à améliorer ses compétences motrices et cognitives."
+            href="/psychomotricite"
             linkText="En savoir plus"
           />
         </div>

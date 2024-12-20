@@ -29,24 +29,23 @@ const Header = () => {
         >
           Sceaux Equilibre
         </Link>
-  
         <Link
           href="/psychologue-sceaux"
           className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
         >
-          Psychologues
+          Psychologie
         </Link>
         <Link
-          href="/hypnose-sceaux"
-          className="c-nav-link md:mr-20"
-        >
-          Hypnothérapeute
-        </Link>
-        <Link
-          href="/dieteticienne-sceaux"
+          href="/psychomotricite"
           className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
         >
-          Diététicienne
+          Psychomotricité
+        </Link>
+        <Link
+          href="/relaxation-sceaux"
+          className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
+        >
+          Relaxation
         </Link>
         <Link
           href="/contact"

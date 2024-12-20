@@ -17,22 +17,6 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/hypnose-sceaux"
-                className="c-text-link--dark"
-              >
-                Hypnose
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/dieteticienne-sceaux"
-                className="c-text-link--dark"
-              >
-                Diététique
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/contact"
                 className="c-text-link--dark"
               >

@@ -58,15 +58,7 @@ const PsycholotherapiesSceauxPage = () => {
           offrent un cadre pour explorer en profondeur les mécanismes
           inconscients. Les thérapies comportementales et cognitives (T.C.C.),
           quant à elles, se concentrent sur la modification des pensées et des
-          comportements problématiques. L&apos;
-          <Link
-            href="/hypnose-sceaux"
-            className="c-text-link"
-          >
-            <strong>hypnose</strong>
-          </Link>
-          , parfois entourée de mystère, a montré son efficacité dans divers
-          domaines comme la gestion de la douleur ou la dépendance. La{' '}
+          comportements problématiques. La{' '}
           <strong>thérapie systémique</strong> examine les systèmes dans
           lesquels nous vivons, qu&apos;il s&apos;agisse de notre famille, de
           notre lieu de travail ou de toute autre structure sociale.

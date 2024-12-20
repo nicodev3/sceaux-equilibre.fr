@@ -63,26 +63,10 @@ const PlanDuSitePage = () => {
           </li>
           <li>
             <Link
-              href="/dieteticienne-sceaux"
-              className="c-text-link"
-            >
-              Diététicienne Sceaux
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/contact"
               className="c-text-link"
             >
               Contact
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/hypnose-sceaux"
-              className="c-text-link"
-            >
-              Hypnose Sceaux
             </Link>
           </li>
           <li>
