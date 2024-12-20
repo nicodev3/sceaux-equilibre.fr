@@ -21,35 +21,32 @@ export default function Home() {
     <main className="md:grid md:grid-cols-12">
       <section className="flex flex-col gap-5 md:col-start-1 md:col-end-9">
         <div className="mb-12">
-          <header className="mb-5">
-            <h1 className={`mb-5 xl:mb-12 text-3xl xl:text-4xl ${openSans.className}`}>
+          <header className="mb-8">
+            <h1 className={`mb-5 text-3xl xl:mb-12 xl:text-4xl ${openSans.className}`}>
               Cabinet de consultation pluridisciplinaire à Sceaux
             </h1>
 
-            <h2 className="mb-5  xl:mb-8 text-2xl xl:text-3xl">
-              (Re)Trouvez votre équilibre
-            </h2>
+            <h2 className="mb-5  text-2xl xl:mb-8 xl:text-3xl">(Re)Trouvez votre équilibre</h2>
             <p className="mb-5">
-              L&apos;équilibre, qu&apos;il soit physique, mental ou émotionnel,
-              est un élément clé de la santé et du bien-être. Dans le contexte
-              actuel où les exigences du quotidien sont multiples, maintenir cet
-              équilibre peut être un défi.
+              L&apos;équilibre – qu&apos;il soit physique, mental ou émotionnel – est au cœur de la santé et de
+              l&apos;épanouissement personnel. Dans un monde où les exigences du quotidien s&apos;accumulent, il devient
+              parfois difficile de préserver cette harmonie essentielle.
             </p>
             <p>
-              Une prise en charge globale, qui considère la personne dans sa
-              totalité, peut s&apos;avérer bénéfique. Cette approche vise à
-              intégrer les aspects physiologiques, psychologiques et
-              comportementaux de l&apos;individu. Qu&apos;il s&apos;agisse
-              d&apos;explorer des thérapies centrées sur l&apos;esprit,
-              de découvrir des techniques de pleine conscience, de relaxation ou des approches corporelles de soin psychique, l&apos;objectif
-              est de favoriser une harmonie intérieure et extérieure.
+              C&apos;est pourquoi une approche globale, prenant en compte la personne dans sa totalité, peut faire toute
+              la différence. En intégrant les dimensions physiologiques, psychologiques et comportementales, cette
+              démarche permet de reconnecter l&apos;esprit, le corps et les émotions. Que vous souhaitiez explorer des
+              thérapies centrées sur l&apos;esprit, pratiquer la pleine conscience, découvrir des techniques de
+              relaxation ou adopter des approches corporelles favorisant l&apos;équilibre intérieur, chaque outil a un
+              même objectif : retrouver l&apos;harmonie, en soi et avec le monde qui nous entoure.
             </p>
           </header>
+          <h2 className="mb-5 text-xl xl:mb-8 xl:mt-8 xl:text-2xl">Un accompagnement adapté à vos besoins</h2>
           <p className="mb-10">
-            Au cabinet pluridisciplinaire de Sceaux, plusieurs professionnels
-            peuvent vous accueillir pour vous accompagner vers un mieux être.
-            Psychologue, psychanalyste, psychomotricien, consultez le spécialiste
-            qui correspond à votre besoin.
+            Au sein du cabinet pluridisciplinaire de Sceaux, une équipe de professionnels dédiés est à votre écoute.
+            Psychologue, psychanalyste, psychomotricien... Chaque spécialiste est là pour répondre à vos besoins
+            spécifiques et vous guider vers un mieux-être durable. Ensemble, prenons le temps de construire votre
+            équilibre, pour que chaque jour devienne une étape vers un épanouissement plus profond.
           </p>
           <Carousel />
         </div>
@@ -66,6 +63,18 @@ export default function Home() {
             href="/psychomotricite"
             linkText="En savoir plus"
           />
+          <Card
+            title="Psychanalyse"
+            description="La psychanalyse est une approche qui permet de comprendre et de traiter les troubles émotionnels et comportementaux."
+            href="/psychanalyse"
+            linkText="En savoir plus"
+          />
+          <Card
+            title="Relaxation"
+            description="La relaxation est une approche thérapeutique qui aide à réduire le stress, l'anxiété et les tensions physiques. Elle permet de retrouver calme et sérénité au quotidien."
+            href="/relaxation-sceaux"
+            linkText="En savoir plus"
+          />
         </div>
       </section>
       <aside className="border-green rounded border p-5 shadow-md md:col-start-10 md:col-end-13">
@@ -75,14 +84,10 @@ export default function Home() {
           width="266"
           height="266"
         />
-        <h2
-          className={`text-green my-5 text-2xl font-semibold ${openSans.className}`}
-        >
-          Informations :
-        </h2>
+        <h2 className={`text-green my-5 text-2xl font-semibold ${openSans.className}`}>Informations :</h2>
         <p className="mb-5">
-          Des places sont actuellement disponibles dans le cadre du partage du
-          cabinet pour les professionnels intéréssés.
+          Des places sont actuellement disponibles dans le cadre du partage du cabinet pour les professionnels
+          intéréssés.
         </p>
         <p>
           Plus d&apos;informations sur le site{' '}
