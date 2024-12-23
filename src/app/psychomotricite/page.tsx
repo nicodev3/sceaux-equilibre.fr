@@ -1,5 +1,7 @@
 import { openSans } from '@/app/fonts'
 import Image from 'next/image'
+import Link from 'next/link'
+import Doctolib from '../components/Doctolib'
 
 export async function generateMetadata() {
   return {
@@ -20,9 +22,9 @@ export async function generateMetadata() {
 
 const PsychomotricitePage = () => {
   return (
-    <div className="grid md:grid-cols-12 md:gap-20">
+    <div className="md:grid md:grid-cols-12">
       <section
-        className="c-wysiwyg md:col-span-8"
+        className="c-wysiwyg flex flex-col gap-5 md:col-start-1 md:col-end-9"
         role="main"
       >
         <h1 className={`${openSans.className}`}>Le psychomotricien</h1>
@@ -157,6 +159,14 @@ const PsychomotricitePage = () => {
           </p>
         </div>
       </section>
+      <aside className="border-green flex flex-col gap-4 rounded border p-5 text-sm shadow-md md:col-start-10 md:col-end-13">
+        <h2 className={`${openSans.className} text-2xl font-semibold mb-4`}>Consulter un psychomotricien</h2>
+        <p>
+          Nicolas Devaux, psychomotricien DE et psychologue, vous accueille à son cabinet de psychomotricité et de
+          psychologie à Sceaux.
+        </p>
+        <Doctolib />
+      </aside>
     </div>
   )
 }
