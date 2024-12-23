@@ -64,12 +64,6 @@ export default function Home() {
             linkText="En savoir plus"
           />
           <Card
-            title="Psychanalyse"
-            description="La psychanalyse est une approche qui permet de comprendre et de traiter les troubles émotionnels et comportementaux."
-            href="/psychanalyse"
-            linkText="En savoir plus"
-          />
-          <Card
             title="Relaxation"
             description="La relaxation est une approche thérapeutique qui aide à réduire le stress, l'anxiété et les tensions physiques. Elle permet de retrouver calme et sérénité au quotidien."
             href="/relaxation-sceaux"
