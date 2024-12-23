@@ -1,7 +1,6 @@
 import { openSans } from '@/app/fonts'
 import Image from 'next/image'
-import Link from 'next/link'
-import Doctolib from '../components/Doctolib'
+import Doctolib from '@/app/components/Doctolib'
 
 export async function generateMetadata() {
   return {

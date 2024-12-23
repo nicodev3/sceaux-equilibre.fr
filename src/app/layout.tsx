@@ -12,21 +12,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Sceaux Equilibre | Équilibre et Bien-être à Sceaux',
     url: 'https://www.sceaux-equilibre.fr',
-    siteName: 'Sceaux Equilibre',
+    description: 'Découvrez une approche complète pour votre bien-être',
     images: '/carousel/cabinet-portrait-1.jpg',
     locale: 'fr_FR',
     type: 'website',
   },
   title: 'Sceaux Equilibre | Équilibre et Bien-être à Sceaux',
-  description:
-    "Découvrez une approche complète pour votre bien-être : de la psychothérapie à la nutrition, en passant par la pleine conscience et l'hypnose. Explorez les voies de l'harmonie physique et mentale.\n",
+  description: 'Cabinet pluridisciplinaire à Sceaux : psychologue, psychomotricien, relaxation. Une approche globale et personnalisée pour retrouver équilibre et bien-être au quotidien.',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
       <body className={playfairDisplay.className}>
