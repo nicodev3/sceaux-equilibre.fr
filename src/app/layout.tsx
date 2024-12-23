@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Sceaux Equilibre | Équilibre et Bien-être à Sceaux',
-    url: 'https://www.sceaux-equilibre.fr',
+    url: 'https://sceaux-equilibre.fr',
     description: 'Découvrez une approche complète pour votre bien-être',
     images: '/carousel/cabinet-portrait-1.jpg',
     locale: 'fr_FR',
