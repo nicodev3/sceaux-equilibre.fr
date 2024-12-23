@@ -15,7 +15,7 @@ export async function generateMetadata() {
     },
     title: 'Psychologue à Sceaux',
     description:
-      'Psychologue à Sceaux, psychothérapies, accompagnement psychologique, adultes et adolescents. Troubles anxieux, dépression, confiance en soi, gestion des émotions.',
+      'Psychologue à Sceaux : accompagnement psychologique pour adultes et adolescents. Thérapies adaptées pour troubles anxieux, dépression et gestion des émotions.',
   }
 }
 
