@@ -17,18 +17,34 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/psychanalyste-sceaux"
                 className="c-text-link--dark"
               >
-                Contact
+                Psychanalyste
               </Link>
             </li>
             <li>
               <Link
-                href="/plan-du-site"
+                href="/psychotherapies-psychanalytiques"
                 className="c-text-link--dark"
               >
-                Plan du site
+                Psychothérapies Psychanalytiques
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/psychomotricite"
+                className="c-text-link--dark"
+              >
+                Psychomotricité
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/relaxation-sceaux"
+                className="c-text-link--dark"
+              >
+                Relaxation Sceaux
               </Link>
             </li>
           </ul>

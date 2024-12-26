@@ -47,12 +47,6 @@ const Header = () => {
         >
           Relaxation
         </Link>
-        <Link
-          href="/contact"
-          className="c-nav-link md:ml-5"
-        >
-          Contact
-        </Link>
       </nav>
       <button
         onClick={handleMenuClick}
