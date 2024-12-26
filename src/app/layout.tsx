@@ -3,6 +3,7 @@ import { playfairDisplay } from './fonts'
 import './globals.css'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
+import Aside from '@/app/components/Aside'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.sceaux-equilibre.fr/'),
@@ -18,7 +19,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
   title: 'Sceaux Equilibre | Équilibre et Bien-être à Sceaux',
-  description: 'Cabinet pluridisciplinaire à Sceaux : psychologue, psychomotricien, relaxation. Une approche globale et personnalisée pour retrouver équilibre et bien-être au quotidien.',
+  description:
+    'Cabinet pluridisciplinaire à Sceaux : psychologue, psychomotricien, relaxation. Une approche globale et personnalisée pour retrouver équilibre et bien-être au quotidien.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -26,7 +28,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="fr">
       <body className={playfairDisplay.className}>
         <Header />
-        <article className="container py-10">{children}</article>
+        <div className="container py-10">
+          <main className="md:grid md:grid-cols-12 md:gap-20">
+            <article className="md:col-span-8 c-wysiwyg">
+              {children}
+            </article>
+            <aside className="md:col-span-4">
+              <Aside />
+            </aside>
+          </main>
+        </div>
+
         <Footer />
       </body>
     </html>

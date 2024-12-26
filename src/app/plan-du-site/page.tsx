@@ -15,7 +15,7 @@ export async function generateMetadata() {
 const PlanDuSitePage = () => {
   return (
     <div>
-      <header className="c-wysiwyg">
+      <header>
         <h1>Plan du site</h1>
       </header>
       <nav>
