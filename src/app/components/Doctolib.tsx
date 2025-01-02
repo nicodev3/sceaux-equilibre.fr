@@ -10,7 +10,7 @@ const Doctolib = () => {
           className="h-12 w-12 rounded-full"
         />
         <div>
-          <div className="font-bold leading-6 text-black">Nicolas Devaux</div>
+          <div className="font-bold leading-6 text-black">Nicolas Devaux, psychologue, psychomotricien</div>
           <div className="flex items-center gap-2 leading-6 text-[#2B4660]">
             <svg
               width="16"

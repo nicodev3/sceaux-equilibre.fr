@@ -1,31 +1,38 @@
-'use client'
-import Link from 'next/link'
-import { openSans } from '@/app/fonts'
-import { useEffect, useState } from 'react'
-import { usePathname } from 'next/navigation'
+"use client";
+import Link from "next/link";
+import { openSans } from "@/app/fonts";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  const pathname = usePathname()
+  const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     // hide sidebar on path change
-    setIsOpen(false)
-  }, [pathname])
+    setIsOpen(false);
+  }, [pathname]);
 
   const handleMenuClick = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   return (
-    <header className="flex h-12 items-center border-b bg-juniper-500 text-raffia-100 md:h-auto">
+    <header className="flex h-24 items-center border-b bg-juniper-500 text-raffia-100 md:h-auto">
+      <Link
+        href="/"
+        className="ml-5 text-xl font-semibold uppercase text-raffia-100 md:hidden"
+      >
+        Sceaux Equilibre
+      </Link>
       <nav
-        className={`${openSans.className} ${isOpen ? 'is-open' : ''
-          } c-nav container absolute inset-0 flex flex-wrap items-center justify-center gap-2 bg-norway-900 py-4 md:sticky md:flex-row md:justify-end md:bg-transparent`}
+        className={`${openSans.className} ${
+          isOpen ? "is-open" : ""
+        } c-nav container absolute inset-0 flex flex-wrap items-center justify-center gap-2 bg-norway-900 py-4 md:sticky md:flex-row md:justify-end md:bg-transparent`}
       >
         <Link
           href="/"
-          className="mr-auto w-full text-2xl font-semibold uppercase text-juniper-50 md:w-auto"
+          className="mr-auto hidden w-full text-2xl font-semibold uppercase text-juniper-50 md:block md:w-auto"
         >
           Sceaux Equilibre
         </Link>
@@ -54,20 +61,23 @@ const Header = () => {
         aria-label="Menu"
       >
         <span
-          className={`block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${isOpen ? 'translate-y-1 rotate-45' : '-translate-y-0.5'
-            }`}
+          className={`block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${
+            isOpen ? "translate-y-1 rotate-45" : "-translate-y-0.5"
+          }`}
         ></span>
         <span
-          className={`my-0.5 block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${isOpen ? 'opacity-0' : 'opacity-100'
-            }`}
+          className={`my-0.5 block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${
+            isOpen ? "opacity-0" : "opacity-100"
+          }`}
         ></span>
         <span
-          className={`block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${isOpen ? '-translate-y-1 -rotate-45' : 'translate-y-0.5'
-            }`}
+          className={`block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${
+            isOpen ? "-translate-y-1 -rotate-45" : "translate-y-0.5"
+          }`}
         ></span>
       </button>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
