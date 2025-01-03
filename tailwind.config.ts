@@ -79,6 +79,10 @@ const config: Config = {
           '950': '#132a09',
         },
       },
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
+      },
     },
   },
   plugins: [],

@@ -29,7 +29,7 @@
     }
 
     h2 {
-        @apply text-2xl mb-4 font-medium text-norway-900;
+        @apply text-2xl mb-4 font-medium text-norway-900 font-sans;
     }
 
     h3 {
