@@ -25,7 +25,7 @@
 
 .c-wysiwyg {
     h1 {
-        @apply text-3xl md:text-4xl mb-8 border-l-4 border-norway-500 pl-2 text-norway-900 font-semibold;
+        @apply text-3xl md:text-4xl mb-8 border-l-4 border-norway-500 pl-2 text-norway-900 font-semibold font-sans;
     }
 
     h2 {
@@ -46,6 +46,14 @@
 
     img {
         @apply my-10;
+    }
+
+    ul {
+        @apply list-disc list-inside mb-5 pl-4;
+
+        li {
+            @apply mb-2;
+        }
     }
 }
 

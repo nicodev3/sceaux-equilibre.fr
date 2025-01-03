@@ -23,7 +23,7 @@ const PsychologueSceauxPage = () => {
   return (
     <div>
       <header>
-        <h1 className={`mb-5 text-3xl xl:text-4xl ${openSans.className}`}>Psychologue à Sceaux</h1>
+        <h1>Psychologue à Sceaux</h1>
         <p>
           Le psychologue en cabinet libéral joue un rôle crucial dans le domaine de la santé mentale. Spécialiste de
           l&apos;esprit humain, il offre un espace de parole sécurisé pour explorer, comprendre et traiter les troubles
