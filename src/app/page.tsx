@@ -52,19 +52,25 @@ export default function Home() {
           title="Psychologue"
           description="Le psychologue en cabinet libéral joue un rôle crucial dans le domaine de la santé mentale. Spécialiste de l'esprit humain, il offre un espace de parole sécurisé pour explorer, comprendre et traiter les troubles émotionnels et comportementaux."
           href="/psychologue-sceaux"
-          linkText="En savoir plus"
+          linkText="Psychologue à Sceaux"
         />
         <Card
           title="Psychomotricité"
           description="La psychomotricité est une approche qui combine les sciences de la psychologie et de la motricité. Elle vise à favoriser le développement de l'enfant et à améliorer ses compétences motrices et cognitives."
           href="/psychomotricite"
-          linkText="En savoir plus"
+          linkText="Psychomotricité à Sceaux"
         />
         <Card
           title="Relaxation"
           description="La relaxation est une approche thérapeutique qui aide à réduire le stress, l'anxiété et les tensions physiques. Elle permet de retrouver calme et sérénité au quotidien."
           href="/relaxation-sceaux"
-          linkText="En savoir plus"
+          linkText="Relaxation à Sceaux"
+        />
+        <Card
+          title="Psychothérapies"
+          description="Découvrez les différentes approches thérapeutiques disponibles, allant des thérapies psychanalytiques aux méthodes modernes comme l'EMDR et la pleine conscience."
+          href="/psychotherapies-sceaux"
+          linkText="Psychothérapies à Sceaux"
         />
       </div>
     </div>
