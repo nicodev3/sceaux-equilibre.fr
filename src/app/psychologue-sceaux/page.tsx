@@ -32,7 +32,7 @@ const PsychologueSceauxPage = () => {
         </p>
       </header>
 
-      <section className="mb-8 grid gap-12 md:grid-cols-2">
+      <section className="my-12 grid gap-12 md:grid-cols-2">
         <Card
           title="Nicolas Devaux"
           description="Psychologue clinicien et psychothérapeute, Nicolas Devaux propose un accompagnement psychologique pour les adultes et les adolescents. Il est spécialisé dans la gestion des troubles anxieux, la dépression, la confiance en soi, et la gestion des émotions. Sa pratique s'appuie sur des méthodes thérapeutiques reconnues pour favoriser le mieux-être de ses patients."

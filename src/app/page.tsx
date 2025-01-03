@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import Card from '@/app/components/Card'
 import Carousel from '@/app/components/Carousel'
 import { openSans } from './fonts'
@@ -22,7 +20,7 @@ export default function Home() {
       <div className="mb-12">
         <header className="mb-8">
           <h1 className={`mb-5 text-3xl xl:mb-12 xl:text-4xl ${openSans.className}`}>
-            Cabinet de consultation pluridisciplinaire à Sceaux
+            Cabinet de psychologie et de psychomotricité à Sceaux
           </h1>
 
           <h2 className="mb-5  text-2xl xl:mb-8 xl:text-3xl">(Re)Trouvez votre équilibre</h2>

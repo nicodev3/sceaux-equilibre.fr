@@ -1,24 +1,24 @@
-"use client";
-import Link from "next/link";
-import { openSans } from "@/app/fonts";
-import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
+'use client'
+import Link from 'next/link'
+import { openSans } from '@/app/fonts'
+import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname()
 
   useEffect(() => {
     // hide sidebar on path change
-    setIsOpen(false);
-  }, [pathname]);
+    setIsOpen(false)
+  }, [pathname])
 
   const handleMenuClick = () => {
-    setIsOpen(!isOpen);
-  };
+    setIsOpen(!isOpen)
+  }
 
   return (
-    <header className="flex h-24 items-center border-b bg-juniper-500 text-raffia-100 md:h-auto">
+    <header className="flex h-24 items-center border-b bg-juniper-500 text-raffia-100 md:h-32">
       <Link
         href="/"
         className="ml-5 text-xl font-semibold uppercase text-raffia-100 md:hidden"
@@ -27,7 +27,7 @@ const Header = () => {
       </Link>
       <nav
         className={`${openSans.className} ${
-          isOpen ? "is-open" : ""
+          isOpen ? 'is-open' : ''
         } c-nav container absolute inset-0 flex flex-wrap items-center justify-center gap-2 bg-norway-900 py-4 md:sticky md:flex-row md:justify-end md:bg-transparent`}
       >
         <Link
@@ -43,6 +43,12 @@ const Header = () => {
           Psychologie
         </Link>
         <Link
+          href="/psychotherapies-sceaux"
+          className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
+        >
+          Psychothérapies
+        </Link>
+        <Link
           href="/psychomotricite"
           className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
         >
@@ -50,7 +56,7 @@ const Header = () => {
         </Link>
         <Link
           href="/relaxation-sceaux"
-          className="c-nav-link md:border-r md:border-r-amber-300 md:pr-2"
+          className="c-nav-link"
         >
           Relaxation
         </Link>
@@ -62,22 +68,22 @@ const Header = () => {
       >
         <span
           className={`block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${
-            isOpen ? "translate-y-1 rotate-45" : "-translate-y-0.5"
+            isOpen ? 'translate-y-1 rotate-45' : '-translate-y-0.5'
           }`}
         ></span>
         <span
           className={`my-0.5 block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${
-            isOpen ? "opacity-0" : "opacity-100"
+            isOpen ? 'opacity-0' : 'opacity-100'
           }`}
         ></span>
         <span
           className={`block h-0.5 w-6 rounded-sm bg-raffia-50 transition-all duration-300 ease-out ${
-            isOpen ? "-translate-y-1 -rotate-45" : "translate-y-0.5"
+            isOpen ? '-translate-y-1 -rotate-45' : 'translate-y-0.5'
           }`}
         ></span>
       </button>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

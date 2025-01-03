@@ -9,26 +9,18 @@ const Footer = () => {
           <ul className="flex flex-col gap-y-4">
             <li>
               <Link
+                href="/psychologue-sceaux"
+                className="c-text-link--dark"
+              >
+                Psychologue Sceaux
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/psychotherapies-sceaux"
                 className="c-text-link--dark"
               >
-                Psychothérapies
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/psychanalyste-sceaux"
-                className="c-text-link--dark"
-              >
-                Psychanalyste
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/psychotherapies-psychanalytiques"
-                className="c-text-link--dark"
-              >
-                Psychothérapies Psychanalytiques
+                Psychothérapies Sceaux
               </Link>
             </li>
             <li>
@@ -36,7 +28,7 @@ const Footer = () => {
                 href="/psychomotricite"
                 className="c-text-link--dark"
               >
-                Psychomotricité
+                Psychomotricité Sceaux
               </Link>
             </li>
             <li>

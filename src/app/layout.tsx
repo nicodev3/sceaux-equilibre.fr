@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="fr">
       <body className={playfairDisplay.className}>
         <Header />
-        <div className="container py-10">
+        <div className="container py-10 md:py-16">
           <main className="md:grid md:grid-cols-12 md:gap-20">
             <article className="md:col-span-8 c-wysiwyg">
               {children}
