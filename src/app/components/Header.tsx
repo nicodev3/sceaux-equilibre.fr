@@ -21,7 +21,7 @@ const Header = () => {
     <header className="flex h-24 items-center border-b bg-juniper-500 text-raffia-100 md:h-32">
       <Link
         href="/"
-        className="ml-5 text-xl font-semibold uppercase text-raffia-100 md:hidden"
+        className="ml-5 text-xl font-semibold uppercase text-raffia-100 md:hidden font-sans"
       >
         Sceaux Equilibre
       </Link>
